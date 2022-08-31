@@ -9,12 +9,12 @@ public class player : MonoBehaviour
     // Start is called before the first frame update
 
 
-   public bool llavebl;
-    public GameObject llave;
-    public GameObject puerta;
+   
+    public GameObject Key;
+    public GameObject Door;
     public int checkpoint;
     //int cpconfirmed;
-    public GameObject inventario;
+    public GameObject Inventory;
     public GameObject invllave;
     bool inv;
     //public GameObject compu;
@@ -23,7 +23,7 @@ public class player : MonoBehaviour
     void Start()
     {
         //hasJump = true;
-        llavebl = false;
+        
 
         //rb = GetComponent<Rigidbody>();
         checkpoint = 0;
@@ -41,7 +41,7 @@ public class player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            inventario.SetActive(inv);
+            Inventory.SetActive(inv);
             inv = !inv;
 
         }
@@ -103,15 +103,15 @@ public class player : MonoBehaviour
        
         if (col.gameObject.name == "paso" )
         {
-            puerta.SetActive(true);
+            Door.SetActive(true);
             
         }
 
-        if (col.gameObject.name == "bienvenidos" && checkpoint == 0)
-        {
-            SceneManager.LoadScene("ranzo");
-            checkpoint++;
-        }
+        //if (col.gameObject.name == "bienvenidos" && checkpoint == 0)
+        //{
+        //    SceneManager.LoadScene("ranzo");
+        //    checkpoint++;
+        //}
 
 
 
