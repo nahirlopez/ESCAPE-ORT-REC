@@ -1018,8 +1018,8 @@ GameObject:
   - component: {fileID: 416505918}
   - component: {fileID: 416505917}
   - component: {fileID: 416505916}
-  - component: {fileID: 416505919}
   - component: {fileID: 416505915}
+  - component: {fileID: 416505919}
   m_Layer: 0
   m_Name: BronzeKey
   m_TagString: pickable
@@ -1092,13 +1092,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416505914}
-  m_LocalRotation: {x: 0.58893305, y: -0.22984661, z: -0.0759769, w: 0.7710745}
-  m_LocalPosition: {x: 21, y: 1.26, z: 7.03}
+  m_LocalRotation: {x: 0.71546406, y: -0.16330685, z: 0.01748015, w: 0.67907035}
+  m_LocalPosition: {x: 21.002499, y: 1.2435775, z: 6.9498177}
   m_LocalScale: {x: 0.31345767, y: 0.31344774, z: 0.31344774}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 60.844, y: -65.678, z: -52.768}
+  m_LocalEulerAnglesHint: {x: 77.798004, y: -111.4, z: -96.62601}
 --- !u!95 &416505919
 Animator:
   serializedVersion: 3
@@ -1107,9 +1107,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416505914}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 01db66f19aa8a4e43896166356602e30, type: 2}
+  m_Controller: {fileID: 9100000, guid: 51575770c29246d40a1d7ee034af0404, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2098,15 +2098,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e406b8b30d916154e9fe1db83003c600, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  flashlight: {fileID: 0}
 --- !u!1 &1662109665
 GameObject:
   m_ObjectHideFlags: 0
@@ -2499,15 +2490,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e406b8b30d916154e9fe1db83003c600, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  flashlight: {fileID: 1571368015}
 --- !u!1 &1899926555
 GameObject:
   m_ObjectHideFlags: 0
