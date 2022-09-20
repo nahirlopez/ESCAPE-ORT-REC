@@ -5,31 +5,112 @@ using UnityEngine.UI;
 
 public class raycaster : MonoBehaviour
 {
-    // Start is called before the first frame update
+    bool inRange = false;
+
+    public GameObject pickableInRange;
+    public Text tecla;
+    bool canopen = false;
+    int contador = 0;
+    bool EXIT;
+    bool isopen;
+
+    public GameObject[] objetos;
+    public GameObject netbook;
+
     void Start()
     {
-        
+
     }
-    bool inRange = false;
-    bool open = false;
-    GameObject pickableInRange;
-    public Text tecla;
+
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && inRange)
+        if (contador == 5)
         {
+            EXIT = true;
+        }
+        if (Input.GetKeyDown(KeyCode.R) && inRange)
+        {
+
             pickableInRange.SetActive(false);
+
+
+            pickable pickablescript = pickableInRange.GetComponent<pickable>();
+
+            if (pickablescript)
+            {
+                pickablescript.tick.SetActive(true);
+                Debug.Log("activado");
+            }
+            contador++;
+
+            int i = 0;
+            while (i < objetos.Length)
+            {
+                if (objetos[i] == null)
+
+                {
+                    objetos[i] = pickableInRange;
+                    break;
+
+                }
+
+                else
+
+                {
+                    i++;
+
+                }
+
+            }
+
+
+            for (int e = 0; e < objetos.Length; e++)
+            {
+                if (objetos[e] && objetos[e].name == "llave")
+                {
+                    canopen = true;
+                    break;
+                }
+
+            }
+            pickableInRange = null;
+            inRange = false;
+
+
+
         }
 
-        if (inRange)
+        if (Input.GetKeyDown(KeyCode.R) && canopen)
         {
-            tecla.text = "'E' para interactuar";
+            if (isopen && (Input.GetKeyDown(KeyCode.R) && canopen))
+            {
+                netbook.SetActive(true);
+                canopen = false;
+
+                pickableInRange = null;
+            }
         }
-        else
+
+
+
+
+        if (Input.GetKeyDown(KeyCode.R) && EXIT && pickableInRange)
         {
-            tecla.text = "";
+            pickableInRange.SetActive(false);
+            contador = 0;
+            pickableInRange = null;
         }
+
+
+
+        if (pickableInRange)
+        {
+            tecla.text = "'R' para interactuar";
+        }
+
+
+
     }
 
     void FixedUpdate()
@@ -43,20 +124,33 @@ public class raycaster : MonoBehaviour
             if (hit.collider.gameObject.CompareTag("pickable"))
             {
                 inRange = true;
+                isopen = false;
                 pickableInRange = hit.collider.gameObject;
             }
             if (hit.collider.gameObject.CompareTag("open"))
             {
-                open = true;
+
+                isopen = true;
+                inRange = false;
                 pickableInRange = hit.collider.gameObject;
+
             }
+            if (hit.collider.gameObject.CompareTag("exit"))
+            {
+                inRange = false;
+                isopen = false;
+                pickableInRange = hit.collider.gameObject;
+
+            }
+
         }
         else
         {
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
             Debug.Log("Did not Hit");
             inRange = false;
-            open = false;
+            pickableInRange = null;
+            tecla.text = "";
         }
     }
 }
