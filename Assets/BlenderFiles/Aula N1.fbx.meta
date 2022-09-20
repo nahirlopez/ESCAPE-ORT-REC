@@ -1,0 +1,475 @@
+fileFormatVersion: 2
+guid: f95f9f3aac759324091061c6cd88b20a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Banco.001
+    100004: Banco.002
+    100006: Banco.003
+    100008: Banco.006
+    100010: Banco.009
+    100012: Banco.011
+    100014: Banco.013
+    100016: Banco.014
+    100018: Banco.015
+    100020: Banco.016
+    100022: CajaElectrica
+    100024: Lockers
+    100026: MarcoPuerta
+    100028: Pared.003
+    100030: Piso
+    100032: Pizarron
+    100034: Puerta
+    100036: PuertaCajaElectrica
+    100038: Silla.002
+    100040: Silla.007
+    100042: Silla.014
+    100044: Silla.015
+    100046: Silla.019
+    100048: Silla.022
+    100050: Silla.023
+    100052: Silla.024
+    100054: Silla.029
+    100056: Silla.031
+    100058: Techo
+    100060: Ventana
+    100062: Ventana afuera.001
+    100064: Ventana afuera.002
+    100066: Ventilador
+    100068: Ventilador.001
+    400000: //RootNode
+    400002: Banco.001
+    400004: Banco.002
+    400006: Banco.003
+    400008: Banco.006
+    400010: Banco.009
+    400012: Banco.011
+    400014: Banco.013
+    400016: Banco.014
+    400018: Banco.015
+    400020: Banco.016
+    400022: CajaElectrica
+    400024: Lockers
+    400026: MarcoPuerta
+    400028: Pared.003
+    400030: Piso
+    400032: Pizarron
+    400034: Puerta
+    400036: PuertaCajaElectrica
+    400038: Silla.002
+    400040: Silla.007
+    400042: Silla.014
+    400044: Silla.015
+    400046: Silla.019
+    400048: Silla.022
+    400050: Silla.023
+    400052: Silla.024
+    400054: Silla.029
+    400056: Silla.031
+    400058: Techo
+    400060: Ventana
+    400062: Ventana afuera.001
+    400064: Ventana afuera.002
+    400066: Ventilador
+    400068: Ventilador.001
+    2100000: Paleta de Colores
+    2100002: Material.005
+    2100004: Material.004
+    2100006: Material.007
+    2100008: paletaGris
+    2100010: paletagrises
+    2100012: paletgris
+    2100014: Material.008
+    2100016: MatLocker
+    2100018: Material.010
+    2100020: Material.009
+    2100022: Material.011
+    2100024: Material.012
+    2100026: Material.013
+    2100028: Material.014
+    2100030: Material.015
+    2100032: Material.016
+    2100034: Material.017
+    2100036: Material.018
+    2100038: Material.019
+    2100040: Material.020
+    2100042: Material.021
+    2100044: Material.022
+    2100046: Material.023
+    2100048: Material.024
+    2100050: Material.025
+    2100052: Material.026
+    2100054: Paleta silla.001
+    2100056: Material.006
+    2100058: MaterialesPupitre
+    2100060: Material.028
+    2300000: Banco.001
+    2300002: Banco.002
+    2300004: Banco.003
+    2300006: Banco.006
+    2300008: Banco.009
+    2300010: Banco.011
+    2300012: Banco.013
+    2300014: Banco.014
+    2300016: Banco.015
+    2300018: Banco.016
+    2300020: CajaElectrica
+    2300022: Lockers
+    2300024: MarcoPuerta
+    2300026: Pared.003
+    2300028: Piso
+    2300030: Pizarron
+    2300032: Puerta
+    2300034: PuertaCajaElectrica
+    2300036: Silla.002
+    2300038: Silla.007
+    2300040: Silla.014
+    2300042: Silla.015
+    2300044: Silla.019
+    2300046: Silla.022
+    2300048: Silla.023
+    2300050: Silla.024
+    2300052: Silla.029
+    2300054: Silla.031
+    2300056: Techo
+    2300058: Ventana
+    2300060: Ventana afuera.001
+    2300062: Ventana afuera.002
+    2300064: Ventilador
+    2300066: Ventilador.001
+    3300000: Banco.001
+    3300002: Banco.002
+    3300004: Banco.003
+    3300006: Banco.006
+    3300008: Banco.009
+    3300010: Banco.011
+    3300012: Banco.013
+    3300014: Banco.014
+    3300016: Banco.015
+    3300018: Banco.016
+    3300020: CajaElectrica
+    3300022: Lockers
+    3300024: MarcoPuerta
+    3300026: Pared.003
+    3300028: Piso
+    3300030: Pizarron
+    3300032: Puerta
+    3300034: PuertaCajaElectrica
+    3300036: Silla.002
+    3300038: Silla.007
+    3300040: Silla.014
+    3300042: Silla.015
+    3300044: Silla.019
+    3300046: Silla.022
+    3300048: Silla.023
+    3300050: Silla.024
+    3300052: Silla.029
+    3300054: Silla.031
+    3300056: Techo
+    3300058: Ventana
+    3300060: Ventana afuera.001
+    3300062: Ventana afuera.002
+    3300064: Ventilador
+    3300066: Ventilador.001
+    4300000: Piso
+    4300002: Pared.003
+    4300004: Techo
+    4300006: Pizarron
+    4300008: Ventilador
+    4300010: Ventana afuera.002
+    4300012: Ventana afuera.001
+    4300014: Ventana
+    4300016: MarcoPuerta
+    4300018: Puerta
+    4300020: Lockers
+    4300022: Ventilador.001
+    4300024: Silla.002
+    4300026: Silla.007
+    4300028: Silla.014
+    4300030: Silla.015
+    4300032: Silla.019
+    4300034: Silla.022
+    4300036: Silla.023
+    4300038: Silla.024
+    4300040: Silla.029
+    4300042: Silla.031
+    4300044: Banco.002
+    4300046: Banco.003
+    4300048: Banco.013
+    4300050: Banco.006
+    4300052: Banco.009
+    4300054: Banco.011
+    4300056: Banco.014
+    4300058: Banco.015
+    4300060: Banco.016
+    4300062: Banco.001
+    4300064: CajaElectrica
+    4300066: PuertaCajaElectrica
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MatLocker
+    second: {fileID: 2100000, guid: ac00f36b1ecd8704c92143abbbebd212, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: a2b79ce851c51a945b80aa2a9bfd7a4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: 8aca893d44dbe81409d3f3306d7ca22e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: bd7ece2d62501914cb2050d160485ea5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: daf19c0b28f5d8d468273566c62600c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.008
+    second: {fileID: 2100000, guid: 7285d2379c2482e46bf186419016ef5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: 5a831798ba4ac7d47bf35914d4934808, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.010
+    second: {fileID: 2100000, guid: 4d9236a69794dea4da282cef9583817b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.011
+    second: {fileID: 2100000, guid: aeda84e3023fbdd41a2624bb43e7e142, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.012
+    second: {fileID: 2100000, guid: b175994ae927ec147abc293348e1fbdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.013
+    second: {fileID: 2100000, guid: 7bd7dc63b5cdea0428579e497e0ff5e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.014
+    second: {fileID: 2100000, guid: 03a317357f5142340a0b6697fc1b1c7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.015
+    second: {fileID: 2100000, guid: 42f48c26d69bd2e41a5ef2dfab686865, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.016
+    second: {fileID: 2100000, guid: fdeab3ce5e501c64f8c7602628500fb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.017
+    second: {fileID: 2100000, guid: 0b79b22c8c799ee478739399f353a7c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.018
+    second: {fileID: 2100000, guid: cd250233fdaf3ba479bed684081b0f8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.019
+    second: {fileID: 2100000, guid: 15c16e3ed87b3424b820e8c2fa9d9dad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.020
+    second: {fileID: 2100000, guid: 333c2168e411dd74eb6b3f3d21b7f050, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.021
+    second: {fileID: 2100000, guid: 902b81e11a2360441b01e22a9f6870ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.022
+    second: {fileID: 2100000, guid: ce72c9e2417906649b10f0d6d4df2c8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.023
+    second: {fileID: 2100000, guid: e65584cf7f920074b94ffd40223f7e5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.024
+    second: {fileID: 2100000, guid: d9944d2b1c6f78c44ae5228b4148463c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.025
+    second: {fileID: 2100000, guid: a277d33574b885743b5adb5199ca96a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.026
+    second: {fileID: 2100000, guid: 2ed691284549bf64ca01bb6ba9fd6088, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.028
+    second: {fileID: 2100000, guid: 88c9903850ddfc24d976a6176f057238, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MaterialesPupitre
+    second: {fileID: 2100000, guid: c0e02e8e07eb1a14cb839e6f7232b900, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paleta de Colores
+    second: {fileID: 2100000, guid: 2e36381a20419034a8fca065707ab4cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paleta silla.001
+    second: {fileID: 2100000, guid: ddc26dac3b9776f41b9ad4f2b0734654, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paletaGris
+    second: {fileID: 2100000, guid: bd475bd24fdf92546a68bdae384e1fcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paletagrises
+    second: {fileID: 2100000, guid: 47387cbb29e181d4eb547d1640df1ea9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paletgris
+    second: {fileID: 2100000, guid: 828985ed06e9abd4d9a7b40c8525c390, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Paleta de Colores
+    second: {fileID: 2800000, guid: 9217766bbd8fe734eb8f807f291e91a7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lH8yTHvm
+    second: {fileID: 2800000, guid: 37ab201f4beae1f4aacb93cd364443e1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: paleta de colores
+    second: {fileID: 2800000, guid: 925c32f4274a1fa46a6921a94c391740, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: paleta-de-colores-grises-1024x576
+    second: {fileID: 2800000, guid: 9c61f2b98c79f6a47930ebcc4be74fac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: paleta32 (1)
+    second: {fileID: 2800000, guid: 6a5c4c64d6d171f49ac9e8088ea0c9d7, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
