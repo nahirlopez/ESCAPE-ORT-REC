@@ -67,7 +67,7 @@ public class raycaster : MonoBehaviour
 
             for (int e = 0; e < objetos.Length; e++)
             {
-                if (objetos[e] && objetos[e].name == "llave")
+                if (objetos[e] && objetos[e].name == "BronzeKey")
                 {
                     canopen = true;
                     break;
@@ -85,9 +85,9 @@ public class raycaster : MonoBehaviour
         {
             if (isopen && (Input.GetKeyDown(KeyCode.R) && canopen))
             {
-                netbook.SetActive(true);
+                
                 canopen = false;
-
+                pickableInRange.SetActive(false);
                 pickableInRange = null;
             }
         }
