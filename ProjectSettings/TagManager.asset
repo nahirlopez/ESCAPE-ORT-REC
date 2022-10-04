@@ -8,6 +8,7 @@ TagManager:
   - open
   - NPC
   - exit
+  - Ranzo
   layers:
   - Default
   - TransparentFX
