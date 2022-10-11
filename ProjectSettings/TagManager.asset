@@ -8,7 +8,7 @@ TagManager:
   - open
   - NPC
   - exit
-  - Ranzo
+  - door
   layers:
   - Default
   - TransparentFX

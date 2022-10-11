@@ -2,29 +2,53 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class raycaster : MonoBehaviour
 {
-    bool inRange = false;
+    [SerializeField] int IncDialogo = 0;
+    [SerializeField] GameObject NPC;
 
+    [SerializeField] string[] Dialoguito;
+    [SerializeField] TextMeshProUGUI txt_dialogo;
+    [SerializeField] GameObject dialogoUI;
+
+
+    //PARA AGARRAR OBJETOS
+    bool inRange = false;
     public GameObject pickableInRange;
+    public GameObject door;
     public Text tecla;
     bool canopen = false;
     int contador = 0;
     bool EXIT;
     bool isopen;
+    bool isNPC;
+    public bool openabledoor = false;
 
     public GameObject[] objetos;
     public GameObject netbook;
 
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (isNPC)
+        {
+            DialogueName NPCName = NPC.GetComponent<DialogueName>();
+            
+
+                Dialoguito = NPCName.Dialogo;
+                txt_dialogo = NPCName.TextoDelDialogo;
+                dialogoUI = NPCName.Master;
+
+            txt_dialogo.text = Dialoguito[IncDialogo];
+            dialogoUI.SetActive(true);
+        }
         if (contador == 5)
         {
             EXIT = true;
@@ -102,15 +126,31 @@ public class raycaster : MonoBehaviour
             pickableInRange = null;
         }
 
+        if (Input.GetKeyDown(KeyCode.E) && isNPC)
+        {
+            IncDialogo++;
+            
+            if (IncDialogo == Dialoguito.Length)
+            {
+                IncDialogo = 0;
+            }
 
+            
 
-        if (pickableInRange)
+        }
+
+        if (pickableInRange || door)
         {
             tecla.text = "'R' para interactuar";
         }
 
 
-
+        if (Input.GetKeyDown(KeyCode.R) && openabledoor && door)
+        {
+            door.SetActive(false);
+            
+        }
+        
     }
 
     void FixedUpdate()
@@ -142,7 +182,20 @@ public class raycaster : MonoBehaviour
                 pickableInRange = hit.collider.gameObject;
 
             }
+            if (hit.collider.gameObject.CompareTag("NPC"))
+            {
+                NPC = hit.collider.gameObject;
+                isNPC = true;
 
+            }
+            if (hit.collider.gameObject.CompareTag("door"))
+            {
+               
+                door = hit.collider.gameObject;
+                openabledoor = true;
+
+
+            }
         }
         else
         {
@@ -150,7 +203,14 @@ public class raycaster : MonoBehaviour
             Debug.Log("Did not Hit");
             inRange = false;
             pickableInRange = null;
+            door = null;
             tecla.text = "";
+            dialogoUI.SetActive(false);
+            NPC = null;
+            isNPC = false;
+            IncDialogo = 0;
+            openabledoor = false;
+            
         }
     }
 }
