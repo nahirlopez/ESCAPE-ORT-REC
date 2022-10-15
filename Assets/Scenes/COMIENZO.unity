@@ -512,29 +512,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c5df4d20b8433a45aba8983da8f0e09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UIElements: {fileID: 0}
 --- !u!1 &87556930
 GameObject:
   m_ObjectHideFlags: 0
@@ -2178,33 +2155,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cda3c426dc99c44c8564d9aadaf63e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  IncDialogo: 0
-  NPC: {fileID: 0}
-  Dialoguito: []
-  txt_dialogo: {fileID: 0}
-  dialogoUI: {fileID: 0}
 --- !u!1 &878921987
 GameObject:
   m_ObjectHideFlags: 0
@@ -3566,6 +3516,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   netbook: {fileID: 0}
+  inventario: {fileID: 0}
 --- !u!114 &1394826925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15573,7 +15524,7 @@ BoxCollider:
   m_GameObject: {fileID: 3784022832516689747}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.0020664004, y: 0.01889728, z: 0.012066771}
   m_Center: {x: -0.0018708513, y: -0.0009989082, z: 0.018511536}
@@ -15921,8 +15872,6 @@ GameObject:
   - component: {fileID: 3784022832516199191}
   - component: {fileID: 3784022832517493513}
   - component: {fileID: 3784022832518623433}
-  - component: {fileID: 3784022832516689784}
-  - component: {fileID: 3784022832516689785}
   - component: {fileID: 3784022832516689786}
   m_Layer: 0
   m_Name: Piso
@@ -15931,35 +15880,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &3784022832516689784
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3784022832516689783}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.07989714, y: 0.09899999, z: 0.0004999999}
-  m_Center: {x: -0.034391854, y: 0.020499516, z: 2.443756e-16}
---- !u!54 &3784022832516689785
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3784022832516689783}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 116
-  m_CollisionDetection: 0
 --- !u!65 &3784022832516689786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24722,7 +24642,6 @@ GameObject:
   - component: {fileID: 7534655966602443467}
   - component: {fileID: 7534655966601345035}
   - component: {fileID: 7534655966603536088}
-  - component: {fileID: 7534655966603536086}
   m_Layer: 0
   m_Name: Pared.003
   m_TagString: Untagged
@@ -24860,20 +24779,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &7534655966603536086
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7534655966603536077}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300002, guid: f95f9f3aac759324091061c6cd88b20a, type: 3}
 --- !u!1 &7534655966603536087
 GameObject:
   m_ObjectHideFlags: 0

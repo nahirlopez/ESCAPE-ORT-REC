@@ -28,6 +28,7 @@ public class raycaster : MonoBehaviour
 
     public GameObject[] objetos;
     public GameObject netbook;
+    public InventorySO inventario;
 
     void Start()
     {
@@ -49,6 +50,12 @@ public class raycaster : MonoBehaviour
             txt_dialogo.text = Dialoguito[IncDialogo];
             dialogoUI.SetActive(true);
         }
+        else if (dialogoUI && isNPC == false)
+        {
+            dialogoUI.SetActive(false);
+        }
+        
+        
         if (contador == 5)
         {
             EXIT = true;
@@ -205,7 +212,7 @@ public class raycaster : MonoBehaviour
             pickableInRange = null;
             door = null;
             tecla.text = "";
-            dialogoUI.SetActive(false);
+            //dialogoUI.SetActive(false);
             NPC = null;
             isNPC = false;
             IncDialogo = 0;
