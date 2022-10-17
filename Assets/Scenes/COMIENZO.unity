@@ -3509,14 +3509,8 @@ MonoBehaviour:
   door: {fileID: 0}
   tecla: {fileID: 663026022}
   openabledoor: 0
-  objetos:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   netbook: {fileID: 0}
-  inventario: {fileID: 0}
+  inventario: {fileID: 11400000, guid: 011fa002c6f22cc4b82e9bfe051fcf24, type: 2}
 --- !u!114 &1394826925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13631,6 +13625,7 @@ GameObject:
   - component: {fileID: 3784022832516199165}
   - component: {fileID: 3784022832516689632}
   - component: {fileID: 3784022832516689630}
+  - component: {fileID: 3784022832516689690}
   m_Layer: 0
   m_Name: L1yL2rotosfinal 1
   m_TagString: Untagged
@@ -14600,6 +14595,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &3784022832516689690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3784022832516689629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adf42c7376d8cdf4791903f9718c722d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3784022832516689691
 GameObject:
   m_ObjectHideFlags: 0
@@ -15222,7 +15229,7 @@ GameObject:
   - component: {fileID: 3784022832516689730}
   m_Layer: 0
   m_Name: PuertaL1AL2
-  m_TagString: Untagged
+  m_TagString: open
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15235,7 +15242,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3784022832516689729}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.0018834346, y: 0.021784281, z: 0.009165412}

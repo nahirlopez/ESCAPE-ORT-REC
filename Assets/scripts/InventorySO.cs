@@ -6,5 +6,6 @@ using UnityEngine;
 public class InventorySO : ScriptableObject
 {
     public bool HasBronzeKey;
+
     
 }
