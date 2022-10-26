@@ -9,6 +9,8 @@ TagManager:
   - NPC
   - exit
   - door
+  - ground
+  - LosingCube
   layers:
   - Default
   - TransparentFX
