@@ -26,8 +26,11 @@ public class raycaster : MonoBehaviour
     bool isNPC;
     public bool openabledoor = false;
 
-    public GameObject[] objetos;
+    
+
+    //public GameObject[] objetos;
     public GameObject netbook;
+    public InventorySO inventario;
 
     void Start()
     {
@@ -49,6 +52,12 @@ public class raycaster : MonoBehaviour
             txt_dialogo.text = Dialoguito[IncDialogo];
             dialogoUI.SetActive(true);
         }
+        else if (dialogoUI && isNPC == false)
+        {
+            dialogoUI.SetActive(false);
+        }
+        
+        
         if (contador == 5)
         {
             EXIT = true;
@@ -68,40 +77,40 @@ public class raycaster : MonoBehaviour
             }
             contador++;
 
-            int i = 0;
-            while (i < objetos.Length)
+
+            //int i = 0;
+            //while (i < objetos.Length)
+            //{
+            //    if (objetos[i] == null)
+
+            //    {
+            //        objetos[i] = pickableInRange;
+            //        break;
+
+            //    }
+
+            //    else
+
+            //    {
+            //        i++;
+
+            //    }
+
+            //}
+
+
+            if (pickableInRange.name == "BronzeKey")
             {
-                if (objetos[i] == null)
-
-                {
-                    objetos[i] = pickableInRange;
-                    break;
-
-                }
-
-                else
-
-                {
-                    i++;
-
-                }
-
-            }
-
-
-            for (int e = 0; e < objetos.Length; e++)
-            {
-                if (objetos[e] && objetos[e].name == "BronzeKey")
-                {
-                    canopen = true;
-                    break;
-                }
+                inventario.HasBronzeKey = true;
 
             }
             pickableInRange = null;
             inRange = false;
 
-
+            if (inventario.HasBronzeKey == true)
+            {
+                canopen = true;
+            }
 
         }
 
@@ -205,7 +214,7 @@ public class raycaster : MonoBehaviour
             pickableInRange = null;
             door = null;
             tecla.text = "";
-            dialogoUI.SetActive(false);
+            //dialogoUI.SetActive(false);
             NPC = null;
             isNPC = false;
             IncDialogo = 0;
