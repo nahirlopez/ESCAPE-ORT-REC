@@ -33,16 +33,22 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
 
 
         }
-        if (col.gameObject == tp2)
+      
+
+        
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject == tp2)
         {
 
-            fps.transform.position = new Vector3(-302.7511f, 285917f, -2743.33f);
-           
+            fps.transform.position = new Vector3(-294.1111f, 16.99974f, -2709.42f);
+
         }
-
-        if (col.gameObject == FINAL)
+        if(other.gameObject == FINAL)
         {
-            inventario.madera2 = true; 
+            inventario.madera2 = true;
+            fps.transform.position = new Vector3(539.8755f, 156.493f, -490.7579f);
 
         }
     }
