@@ -11,6 +11,7 @@ TagManager:
   - door
   - ground
   - LosingCube
+  - Player2D
   layers:
   - Default
   - TransparentFX

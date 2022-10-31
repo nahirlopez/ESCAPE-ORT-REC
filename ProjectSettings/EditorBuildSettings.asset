@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/COMIENZO.unity
     guid: 4b222a132d194c5448ff95d090abb569
   - enabled: 1
-    path: Assets/Scenes/ranzo.unity
-    guid: fad1e043b0cae8946a5ead850d6380bf
+    path: Assets/Scenes/Juego1.unity
+    guid: 77e717f8bdfa54b469631ee9d59d9cb5
   m_configObjects: {}
