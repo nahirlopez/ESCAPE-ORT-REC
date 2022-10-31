@@ -47,8 +47,9 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
         }
         if(other.gameObject == FINAL)
         {
-            inventario.madera2 = true;
+            
             fps.transform.position = new Vector3(539.8755f, 156.493f, -490.7579f);
+            inventario.madera2 = true;
 
         }
     }

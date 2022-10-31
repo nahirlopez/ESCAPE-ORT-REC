@@ -16,7 +16,7 @@ public class juego2 : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision col)
+    private void OntriggerEnter (Collider col)
     {
         if(col.gameObject.tag == "DEATH")
         {
