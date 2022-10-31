@@ -1412,7 +1412,7 @@ GameObject:
   - component: {fileID: 1224049359}
   m_Layer: 0
   m_Name: PuntoLlegada
-  m_TagString: Untagged
+  m_TagString: SceneChanger2D
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

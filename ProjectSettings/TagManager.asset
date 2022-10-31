@@ -12,6 +12,7 @@ TagManager:
   - ground
   - LosingCube
   - Player2D
+  - SceneChanger2D
   layers:
   - Default
   - TransparentFX
