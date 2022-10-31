@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: 3b72cae5b5859274dad8f761799467eb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Banco.001
+    100004: Banco.002
+    100006: Banco.003
+    100008: Banco.006
+    100010: Banco.009
+    100012: Banco.011
+    100014: Banco.013
+    100016: Banco.014
+    100018: Banco.015
+    100020: Banco.016
+    100022: CajaElectrica
+    100024: Cube
+    100026: Lockers
+    100028: MarcoPuerta
+    100030: Pared.003
+    100032: Piso
+    100034: Pizarron
+    100036: Proyector
+    100038: Puerta
+    100040: PuertaCajaElectrica
+    100042: Silla.002
+    100044: Silla.007
+    100046: Silla.014
+    100048: Silla.015
+    100050: Silla.019
+    100052: Silla.022
+    100054: Silla.023
+    100056: Silla.024
+    100058: Silla.029
+    100060: Silla.031
+    100062: Techo
+    100064: Ventana
+    100066: Ventana afuera.001
+    100068: Ventana afuera.002
+    100070: Ventilador
+    100072: Ventilador.001
+    400000: //RootNode
+    400002: Banco.001
+    400004: Banco.002
+    400006: Banco.003
+    400008: Banco.006
+    400010: Banco.009
+    400012: Banco.011
+    400014: Banco.013
+    400016: Banco.014
+    400018: Banco.015
+    400020: Banco.016
+    400022: CajaElectrica
+    400024: Cube
+    400026: Lockers
+    400028: MarcoPuerta
+    400030: Pared.003
+    400032: Piso
+    400034: Pizarron
+    400036: Proyector
+    400038: Puerta
+    400040: PuertaCajaElectrica
+    400042: Silla.002
+    400044: Silla.007
+    400046: Silla.014
+    400048: Silla.015
+    400050: Silla.019
+    400052: Silla.022
+    400054: Silla.023
+    400056: Silla.024
+    400058: Silla.029
+    400060: Silla.031
+    400062: Techo
+    400064: Ventana
+    400066: Ventana afuera.001
+    400068: Ventana afuera.002
+    400070: Ventilador
+    400072: Ventilador.001
+    2100000: Paleta silla.001
+    2100002: Material.006
+    2100004: MaterialesPupitre
+    2100006: Material.028
+    2100008: Paleta de Colores
+    2100010: Material.005
+    2100012: Material.002
+    2100014: Material.004
+    2100016: Material.007
+    2100018: paletaGris
+    2100020: paletagrises
+    2100022: paletgris
+    2100024: Material.008
+    2100026: MatLocker
+    2100028: Material.010
+    2100030: Material.009
+    2100032: Material.011
+    2100034: Material.012
+    2100036: Material.013
+    2100038: Material.014
+    2100040: Material.015
+    2100042: Material.016
+    2100044: Material.017
+    2100046: Material.018
+    2100048: Material.019
+    2100050: Material.020
+    2100052: Material.021
+    2100054: Material.022
+    2100056: Material.023
+    2100058: Material.024
+    2100060: Material.025
+    2100062: Material.026
+    2100064: No Name
+    2300000: Banco.001
+    2300002: Banco.002
+    2300004: Banco.003
+    2300006: Banco.006
+    2300008: Banco.009
+    2300010: Banco.011
+    2300012: Banco.013
+    2300014: Banco.014
+    2300016: Banco.015
+    2300018: Banco.016
+    2300020: CajaElectrica
+    2300022: Cube
+    2300024: Lockers
+    2300026: MarcoPuerta
+    2300028: Pared.003
+    2300030: Piso
+    2300032: Pizarron
+    2300034: Proyector
+    2300036: Puerta
+    2300038: PuertaCajaElectrica
+    2300040: Silla.002
+    2300042: Silla.007
+    2300044: Silla.014
+    2300046: Silla.015
+    2300048: Silla.019
+    2300050: Silla.022
+    2300052: Silla.023
+    2300054: Silla.024
+    2300056: Silla.029
+    2300058: Silla.031
+    2300060: Techo
+    2300062: Ventana
+    2300064: Ventana afuera.001
+    2300066: Ventana afuera.002
+    2300068: Ventilador
+    2300070: Ventilador.001
+    3300000: Banco.001
+    3300002: Banco.002
+    3300004: Banco.003
+    3300006: Banco.006
+    3300008: Banco.009
+    3300010: Banco.011
+    3300012: Banco.013
+    3300014: Banco.014
+    3300016: Banco.015
+    3300018: Banco.016
+    3300020: CajaElectrica
+    3300022: Cube
+    3300024: Lockers
+    3300026: MarcoPuerta
+    3300028: Pared.003
+    3300030: Piso
+    3300032: Pizarron
+    3300034: Proyector
+    3300036: Puerta
+    3300038: PuertaCajaElectrica
+    3300040: Silla.002
+    3300042: Silla.007
+    3300044: Silla.014
+    3300046: Silla.015
+    3300048: Silla.019
+    3300050: Silla.022
+    3300052: Silla.023
+    3300054: Silla.024
+    3300056: Silla.029
+    3300058: Silla.031
+    3300060: Techo
+    3300062: Ventana
+    3300064: Ventana afuera.001
+    3300066: Ventana afuera.002
+    3300068: Ventilador
+    3300070: Ventilador.001
+    4300000: Silla.002
+    4300002: Silla.007
+    4300004: Silla.014
+    4300006: Silla.015
+    4300008: Silla.019
+    4300010: Silla.022
+    4300012: Silla.023
+    4300014: Silla.024
+    4300016: Silla.029
+    4300018: Silla.031
+    4300020: Banco.002
+    4300022: Banco.003
+    4300024: Banco.013
+    4300026: Banco.006
+    4300028: Banco.009
+    4300030: Banco.011
+    4300032: Banco.014
+    4300034: Banco.015
+    4300036: Banco.016
+    4300038: Banco.001
+    4300040: CajaElectrica
+    4300042: PuertaCajaElectrica
+    4300044: Piso
+    4300046: Pared.003
+    4300048: Techo
+    4300050: Pizarron
+    4300052: Proyector
+    4300054: Ventilador
+    4300056: Ventana afuera.002
+    4300058: Ventana afuera.001
+    4300060: Ventana
+    4300062: MarcoPuerta
+    4300064: Puerta
+    4300066: Lockers
+    4300068: Ventilador.001
+    4300070: Cube
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
