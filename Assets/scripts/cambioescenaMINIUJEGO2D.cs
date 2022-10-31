@@ -16,7 +16,8 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
     public GameObject FINAL;
     
     GameObject camara;
-    InventorySO inventario;
+    public InventorySO inventario;
+
     // Update is called once per frame
     void Update()
     {

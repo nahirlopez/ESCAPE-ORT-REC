@@ -126,7 +126,7 @@ public class raycaster : MonoBehaviour
         }
 
 
-
+        
 
         if (Input.GetKeyDown(KeyCode.R) && EXIT && pickableInRange)
         {
@@ -151,6 +151,11 @@ public class raycaster : MonoBehaviour
         if (pickableInRange || door)
         {
             tecla.text = "'R' para interactuar";
+        }
+        
+    if (tecla.text != null && pickableInRange == false && door == false)
+        {
+            tecla.text = "";
         }
 
 
@@ -213,7 +218,7 @@ public class raycaster : MonoBehaviour
             inRange = false;
             pickableInRange = null;
             door = null;
-            tecla.text = "";
+            
             //dialogoUI.SetActive(false);
             NPC = null;
             isNPC = false;

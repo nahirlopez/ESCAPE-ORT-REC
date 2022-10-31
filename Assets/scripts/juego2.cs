@@ -16,11 +16,14 @@ public class juego2 : MonoBehaviour
         
     }
 
-    private void OntriggerEnter (Collider col)
+    private void OnTriggerEnter(Collider other)
     {
-        if(col.gameObject.tag == "DEATH")
+        if (other.gameObject.tag == "DEATH")
         {
             transform.position = new Vector3(-302.7511f, 285917f, -2743.33f);
         }
     }
+
+
 }
+  
