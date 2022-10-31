@@ -166,7 +166,7 @@ public class raycaster : MonoBehaviour
     {
         RaycastHit hit;
         //   // Does the ray intersect any objects excluding the player layer
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 3f))
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 8f))
         {
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
 

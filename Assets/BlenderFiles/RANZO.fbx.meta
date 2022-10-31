@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: aba6c6cbefc6e5542b14172375b3ed36
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Cube.001
+    100004: Cube.002
+    100006: Cube.003
+    100008: Cube.004
+    100010: Cube.005
+    100012: Cube.006
+    100014: Cube.007
+    100016: //RootNode
+    100018: Sphere.001
+    100020: Sphere.002
+    100022: Sphere.003
+    100024: Sphere.004
+    100026: Sphere.005
+    100028: Sphere.006
+    100030: Sphere.007
+    100032: Sphere.008
+    100034: Sphere.009
+    100036: Sphere.010
+    400000: Cube
+    400002: Cube.001
+    400004: Cube.002
+    400006: Cube.003
+    400008: Cube.004
+    400010: Cube.005
+    400012: Cube.006
+    400014: Cube.007
+    400016: //RootNode
+    400018: Sphere.001
+    400020: Sphere.002
+    400022: Sphere.003
+    400024: Sphere.004
+    400026: Sphere.005
+    400028: Sphere.006
+    400030: Sphere.007
+    400032: Sphere.008
+    400034: Sphere.009
+    400036: Sphere.010
+    2100000: Material.009
+    2100002: Material.014
+    2100004: Material.016
+    2100006: Material.005
+    2100008: Material.010
+    2100010: Material.025
+    2100012: Material.003
+    2100014: Material.015
+    2100016: Material.017
+    2100018: Material.018
+    2100020: Material.026
+    2100022: Material.011
+    2100024: Material.012
+    2100026: Material.019
+    2100028: Material.020
+    2100030: Material.021
+    2100032: Material.022
+    2100034: Material.023
+    2100036: Material.024
+    2300000: Cube
+    2300002: Cube.001
+    2300004: Cube.002
+    2300006: Cube.003
+    2300008: Cube.004
+    2300010: Cube.005
+    2300012: Cube.006
+    2300014: Cube.007
+    2300016: Sphere.001
+    2300018: Sphere.002
+    2300020: Sphere.003
+    2300022: Sphere.004
+    2300024: Sphere.005
+    2300026: Sphere.006
+    2300028: Sphere.007
+    2300030: Sphere.008
+    2300032: Sphere.009
+    2300034: Sphere.010
+    3300000: Cube
+    3300002: Cube.001
+    3300004: Cube.002
+    3300006: Cube.003
+    3300008: Cube.004
+    3300010: Cube.005
+    3300012: Cube.006
+    3300014: Cube.007
+    3300016: Sphere.001
+    3300018: Sphere.002
+    3300020: Sphere.003
+    3300022: Sphere.004
+    3300024: Sphere.005
+    3300026: Sphere.006
+    3300028: Sphere.007
+    3300030: Sphere.008
+    3300032: Sphere.009
+    3300034: Sphere.010
+    4300000: Sphere.001
+    4300002: Sphere.002
+    4300004: Sphere.003
+    4300006: Sphere.004
+    4300008: Sphere.005
+    4300010: Sphere.006
+    4300012: Sphere.007
+    4300014: Sphere.008
+    4300016: Sphere.009
+    4300018: Sphere.010
+    4300020: Cube
+    4300022: Cube.001
+    4300024: Cube.002
+    4300026: Cube.003
+    4300028: Cube.004
+    4300030: Cube.006
+    4300032: Cube.005
+    4300034: Cube.007
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: bd1da96443eb8cf45835dcd5fb77c4d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: eca41d2195c6799439e35e2bdd4f6a8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.009
+    second: {fileID: 2100000, guid: 288d5f3890179894db8aad4ad7401254, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.010
+    second: {fileID: 2100000, guid: 76fb386f1c8574e4d91adafdb1509a2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.011
+    second: {fileID: 2100000, guid: acd7951e864823a43a3de776d99c02a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.012
+    second: {fileID: 2100000, guid: 14ce059d7158af642ad3bb74d01861c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.014
+    second: {fileID: 2100000, guid: 6d40ced33e09e824a86237c8c8b15e84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.015
+    second: {fileID: 2100000, guid: 81dbf179f6738fa4fa7294b532c7390a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.016
+    second: {fileID: 2100000, guid: 2299af45fbabcad45af3c2cbca8dcb7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.017
+    second: {fileID: 2100000, guid: 8babf8b7cddfe664b943bfa6d772c02e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.018
+    second: {fileID: 2100000, guid: f9aae04f241dae146a2da8dacacaa17f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.019
+    second: {fileID: 2100000, guid: e72090f1c1805f8498f2fbae24b31df5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.020
+    second: {fileID: 2100000, guid: 4868ae6ca7f2e3948a615f04ef5f9e1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.021
+    second: {fileID: 2100000, guid: 51a3452d4485047468ffc210b5e79659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.022
+    second: {fileID: 2100000, guid: caa7d3f94cf35064c9e06c19513276bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.023
+    second: {fileID: 2100000, guid: a9436c64d623dcc49a4065dfebcc010a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.024
+    second: {fileID: 2100000, guid: 7bbf18a16c2a32148add575ab0db64af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.025
+    second: {fileID: 2100000, guid: 417829a8f73ca20478f489b054b776ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.026
+    second: {fileID: 2100000, guid: a78453843bef34f438505a2dd4e070cc, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

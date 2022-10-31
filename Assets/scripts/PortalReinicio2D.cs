@@ -39,6 +39,8 @@ public class PortalReinicio2D : MonoBehaviour
                 Debug.Log("Contacto");
                 transform.position = new Vector3(-7.57f, -2.49f, 0f);
              screamer.SetActive(true);
+              
+
 
              StartCoroutine(Timedelay());
 

@@ -1,9 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class Persistencia : MonoBehaviour
+
+public class persistenciatrue : MonoBehaviour
 {
-    public static Persistencia instance;
+    public static persistenciatrue instance;
     public InventorySO inventario;
 
     void Awake()
@@ -22,5 +23,5 @@ public class Persistencia : MonoBehaviour
         }
 
     }
-    
+
 }

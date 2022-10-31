@@ -2,27 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Flashlight : MonoBehaviour
+public class FPSTRUE : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    public GameObject fps;
+    public InventorySO inventario;
+
     void Start()
     {
         
     }
 
-    public Light flashlight;
-   
-    //public GameObject camara;
-
     // Update is called once per frame
     void Update()
     {
-        //transform.rotation = camara.transform.rotation;
-
-        if (Input.GetKeyDown(KeyCode.F))
+        if (inventario.win == true)
         {
-
-            flashlight.enabled = !flashlight.enabled;
+            fps.SetActive(true);
         }
     }
 }
