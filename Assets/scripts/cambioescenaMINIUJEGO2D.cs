@@ -11,10 +11,12 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
        
     }
     public GameObject tp1;
+    public GameObject tp2;
     public GameObject fps;
+    public GameObject FINAL;
     
     GameObject camara;
-    
+    InventorySO inventario;
     // Update is called once per frame
     void Update()
     {
@@ -29,6 +31,18 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
 
             fps.SetActive(false);
 
+
+        }
+        if (col.gameObject == tp2)
+        {
+
+            fps.transform.position = new Vector3(-302.7511f, 285917f, -2743.33f);
+           
+        }
+
+        if (col.gameObject == FINAL)
+        {
+            inventario.madera2 = true; 
 
         }
     }
