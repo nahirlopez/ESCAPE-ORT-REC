@@ -12,6 +12,12 @@ public class Moviminet2D : MonoBehaviour
     int hasJump;
     Rigidbody2D rb;
 
+
+    public GameObject screamer;
+    public AudioSource source;
+    public AudioClip SCREAM;
+    public AudioClip OOF;
+
     void Start()
     {
         hasJump = maxJump;
@@ -61,11 +67,35 @@ public class Moviminet2D : MonoBehaviour
 
                 Debug.Log("Contacto");
                 transform.position = new Vector3(-7.57f, -2.49f, 0f);
+                source.clip = OOF;
+                source.Play();
             }
 
         }
+        if (col.gameObject.name == "PortalScreamer")
+        {
+
+            Debug.Log("Contacto");
+            transform.position = new Vector3(-7.57f, -2.49f, 0f);
+            screamer.SetActive(true);
+            source.clip = SCREAM;
+            source.Play();
+
+            StartCoroutine(Timedelay());
+
+
+        }
+
+
+    }
+    IEnumerator Timedelay()
+    {
+        yield return new WaitForSeconds(5);
+        screamer.SetActive(false);
 
     }
 
 }
+
+
 

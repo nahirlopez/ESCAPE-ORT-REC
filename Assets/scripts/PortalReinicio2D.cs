@@ -4,7 +4,13 @@ using UnityEngine;
 
 public class PortalReinicio2D : MonoBehaviour
 {
-    public GameObject Sphere;
+
+    public GameObject screamer;
+    
+    public AudioClip SCREAM;
+    public AudioSource SOURCE;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +29,7 @@ public class PortalReinicio2D : MonoBehaviour
         if (col.gameObject.name == "PortalScreamer")
         {
             Debug.Log("ded");
-            Destroy(Sphere);
+            
         }
     
       
@@ -32,10 +38,22 @@ public class PortalReinicio2D : MonoBehaviour
 
                 Debug.Log("Contacto");
                 transform.position = new Vector3(-7.57f, -2.49f, 0f);
+             screamer.SetActive(true);
+
+             StartCoroutine(Timedelay());
+
+
             }
 
+
         }
+    IEnumerator Timedelay()
+    {
+        yield return new WaitForSeconds(5);
+        screamer.SetActive(false);
 
     }
+    }
+
 
 
