@@ -13,6 +13,7 @@ TagManager:
   - LosingCube
   - Player2D
   - SceneChanger2D
+  - PortalScreamer
   layers:
   - Default
   - TransparentFX
