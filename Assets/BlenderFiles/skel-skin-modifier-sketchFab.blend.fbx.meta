@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: cd0ae34b103023142a1a181fc5209ab5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Clavicle
+    100002: Femur
+    100004: Fibula
+    100006: Hand
+    100008: Heel
+    100010: Humerus
+    100012: Jaw
+    100014: Knee
+    100016: Light - Back
+    100018: Light - Main
+    100020: Lower Teeth
+    100022: Pelvis
+    100024: Plane
+    100026: Radius
+    100028: Scapula
+    100030: //RootNode
+    100032: Sternum
+    100034: Tibia
+    100036: Toes
+    100038: Torso
+    100040: Ulna
+    100042: Upper Teeth
+    100044: Walls
+    100046: Wrist
+    400000: Clavicle
+    400002: Femur
+    400004: Fibula
+    400006: Hand
+    400008: Heel
+    400010: Humerus
+    400012: Jaw
+    400014: Knee
+    400016: Light - Back
+    400018: Light - Main
+    400020: Lower Teeth
+    400022: Pelvis
+    400024: Plane
+    400026: Radius
+    400028: Scapula
+    400030: //RootNode
+    400032: Sternum
+    400034: Tibia
+    400036: Toes
+    400038: Torso
+    400040: Ulna
+    400042: Upper Teeth
+    400044: Walls
+    400046: Wrist
+    2100000: Material
+    2100002: Light - Back
+    2100004: Light - Main
+    2300000: Clavicle
+    2300002: Femur
+    2300004: Fibula
+    2300006: Hand
+    2300008: Heel
+    2300010: Humerus
+    2300012: Jaw
+    2300014: Knee
+    2300016: Light - Back
+    2300018: Light - Main
+    2300020: Lower Teeth
+    2300022: Pelvis
+    2300024: Plane
+    2300026: Radius
+    2300028: Scapula
+    2300030: Sternum
+    2300032: Tibia
+    2300034: Toes
+    2300036: Torso
+    2300038: Ulna
+    2300040: Upper Teeth
+    2300042: Walls
+    2300044: Wrist
+    3300000: Clavicle
+    3300002: Femur
+    3300004: Fibula
+    3300006: Hand
+    3300008: Heel
+    3300010: Humerus
+    3300012: Jaw
+    3300014: Knee
+    3300016: Light - Back
+    3300018: Light - Main
+    3300020: Lower Teeth
+    3300022: Pelvis
+    3300024: Plane
+    3300026: Radius
+    3300028: Scapula
+    3300030: Sternum
+    3300032: Tibia
+    3300034: Toes
+    3300036: Torso
+    3300038: Ulna
+    3300040: Upper Teeth
+    3300042: Walls
+    3300044: Wrist
+    4300000: Knee
+    4300002: Sternum
+    4300004: Heel
+    4300006: Toes
+    4300008: Hand
+    4300010: Wrist
+    4300012: Scapula
+    4300014: Lower Teeth
+    4300016: Jaw
+    4300018: Upper Teeth
+    4300020: Plane
+    4300022: Pelvis
+    4300024: Ulna
+    4300026: Radius
+    4300028: Humerus
+    4300030: Clavicle
+    4300032: Fibula
+    4300034: Tibia
+    4300036: Femur
+    4300038: Torso
+    4300040: Light - Back
+    4300042: Light - Main
+    4300044: Walls
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light - Back
+    second: {fileID: 2100000, guid: c4f2f80dd23f80741a25abd37ed82aff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light - Main
+    second: {fileID: 2100000, guid: ae285e33b89f8af4b884e1f026051a20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 1beeffe985ebffc45b3c39445460853a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
