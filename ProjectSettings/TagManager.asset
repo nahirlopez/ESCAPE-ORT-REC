@@ -17,6 +17,7 @@ TagManager:
   - DEATH
   - CORRECT
   - tpminijuego1
+  - BotonFinal
   layers:
   - Default
   - TransparentFX
