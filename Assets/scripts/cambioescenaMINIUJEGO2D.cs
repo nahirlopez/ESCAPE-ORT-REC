@@ -34,8 +34,7 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
 
 
         }
-      
-
+        Debug.Log(col.gameObject);
         
     }
      void OnTriggerEnter(Collider other)
@@ -43,11 +42,12 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
         if (other.gameObject == tp2)
         {
 
-            fps.transform.position = new Vector3(-11.995f, 0.08f, -22.45996f);
-            fps.transform.eulerAngles = new Vector3 (0, 270f, 0);
+            fps.transform.position = new Vector3(-303.6549f, 15.10432f, -2743.993f);
+            fps.transform.eulerAngles = new Vector3 (0, 180.063f, 0);
 
 
         }
+        
         if(other.gameObject == FINAL)
         {
             

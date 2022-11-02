@@ -73,7 +73,7 @@ public class raycaster : MonoBehaviour
             if (pickablescript)
             {
                 pickablescript.tick.SetActive(true);
-                Debug.Log("activado");
+               
             }
             contador++;
 
@@ -214,7 +214,7 @@ public class raycaster : MonoBehaviour
         else
         {
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
-            Debug.Log("Did not Hit");
+            
             inRange = false;
             pickableInRange = null;
             door = null;
