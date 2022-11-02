@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class juego2 : MonoBehaviour
 {
+    public GameObject fps;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,15 +17,16 @@ public class juego2 : MonoBehaviour
     {
         
     }
-
-    private void OnTriggerEnter(Collider other)
+   
+     void OnCollisionEnter (Collision col)
     {
-        if (other.gameObject.tag == "DEATH")
+        if (col.gameObject.tag == "DEATH")
         {
-            transform.position = new Vector3(-302.7511f, 285917f, -2743.33f);
+            fps.transform.position = new Vector3(-298.6775f, 15.10432f, -2751.258f);
         }
     }
 
+    
 
 }
   

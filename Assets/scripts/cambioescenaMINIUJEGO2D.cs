@@ -24,7 +24,7 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision col)
+     void OnCollisionEnter(Collision col)
     {
         if (col.gameObject == tp1)
         {
@@ -38,12 +38,14 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
 
         
     }
-    private void OnTriggerEnter(Collider other)
+     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == tp2)
         {
 
-            fps.transform.position = new Vector3(-294.1111f, 16.99974f, -2709.42f);
+            fps.transform.position = new Vector3(-11.995f, 0.08f, -22.45996f);
+            fps.transform.eulerAngles = new Vector3 (0, 270f, 0);
+
 
         }
         if(other.gameObject == FINAL)

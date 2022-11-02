@@ -11,7 +11,10 @@ public class FPSTRUE : MonoBehaviour
 
     void Start()
     {
-        
+        inventario.HasBronzeKey = false;
+        inventario.win = false;
+        inventario.madera1 = false;
+        inventario.madera2 = false;
     }
 
     // Update is called once per frame
