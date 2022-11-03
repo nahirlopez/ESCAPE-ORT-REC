@@ -18,6 +18,10 @@ TagManager:
   - CORRECT
   - tpminijuego1
   - BotonFinal
+  - PortalFinal
+  - txt_interaccion
+  - TP2
+  - portal2juego
   layers:
   - Default
   - TransparentFX

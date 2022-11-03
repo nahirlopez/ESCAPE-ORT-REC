@@ -18,14 +18,16 @@ public class raycaster : MonoBehaviour
     bool inRange = false;
     public GameObject pickableInRange;
     public GameObject door;
-    public Text tecla;
+    
     bool canopen = false;
     int contador = 0;
     bool EXIT;
     bool isopen;
     bool isNPC;
     public bool openabledoor = false;
-    public GameObject PORTALFINAL;
+
+    public GameObject portalfinal;
+    public Text tecla;
 
     
 
@@ -36,11 +38,18 @@ public class raycaster : MonoBehaviour
     void Start()
     {
         
+        portalfinal.SetActive(false);
+
+       
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+
+            
         if (isNPC)
         {
             DialogueName NPCName = NPC.GetComponent<DialogueName>();
@@ -111,7 +120,7 @@ public class raycaster : MonoBehaviour
             if (pickableInRange.name == "Llave_oro")
             {
                 inventario.HasGoldenKey = true;
-                PORTALFINAL.SetActive(true);
+                
 
             }
 
@@ -125,6 +134,7 @@ public class raycaster : MonoBehaviour
 
             if (inventario.HasGoldenKey == true)
             {
+                portalfinal.SetActive(true);
 
             }
 
@@ -167,6 +177,7 @@ public class raycaster : MonoBehaviour
         if (pickableInRange || door)
         {
             tecla.text = "'R' para interactuar";
+            
         }
         
     if (tecla.text != null && pickableInRange == false && door == false)
@@ -242,5 +253,14 @@ public class raycaster : MonoBehaviour
             openabledoor = false;
             
         }
+    }
+
+    public void LoadReferences()
+    {
+        portalfinal = GameObject.FindGameObjectWithTag("PortalFinal");
+
+        tecla = GameObject.FindGameObjectWithTag("txt_interaccion").GetComponent<Text>();
+
+        portalfinal.SetActive(false);
     }
 }

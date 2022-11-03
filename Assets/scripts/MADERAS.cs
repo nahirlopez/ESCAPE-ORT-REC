@@ -21,7 +21,7 @@ public class MADERAS : MonoBehaviour
         }
         if (inventario.madera2 == true)
         {
-            maderauno.SetActive(false);
+            maderados.SetActive(false);
         }
     }
 }

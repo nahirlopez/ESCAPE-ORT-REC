@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: inventario
   m_EditorClassIdentifier: 
   HasBronzeKey: 1
+  HasGoldenKey: 0
   madera1: 0
   madera2: 0
   win: 0

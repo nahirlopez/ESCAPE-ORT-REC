@@ -15,13 +15,14 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
     public GameObject fps;
     public GameObject FINAL;
     
-    GameObject camara;
+    
     public InventorySO inventario;
 
     // Update is called once per frame
     void Update()
     {
-        
+         tp2 = GameObject.FindGameObjectWithTag("TP2");
+        FINAL = GameObject.FindGameObjectWithTag("portal2juego");
     }
 
      void OnCollisionEnter(Collision col)
