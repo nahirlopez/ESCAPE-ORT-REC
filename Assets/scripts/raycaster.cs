@@ -25,6 +25,7 @@ public class raycaster : MonoBehaviour
     bool isopen;
     bool isNPC;
     public bool openabledoor = false;
+    public GameObject PORTALFINAL;
 
     
 
@@ -55,7 +56,10 @@ public class raycaster : MonoBehaviour
         else if (dialogoUI && isNPC == false)
         {
             dialogoUI.SetActive(false);
+            dialogoUI = null;
+            txt_dialogo = null;
         }
+       
         
         
         if (contador == 5)
@@ -104,12 +108,24 @@ public class raycaster : MonoBehaviour
                 inventario.HasBronzeKey = true;
 
             }
+            if (pickableInRange.name == "Llave_oro")
+            {
+                inventario.HasGoldenKey = true;
+                PORTALFINAL.SetActive(true);
+
+            }
+
             pickableInRange = null;
             inRange = false;
 
             if (inventario.HasBronzeKey == true)
             {
                 canopen = true;
+            }
+
+            if (inventario.HasGoldenKey == true)
+            {
+
             }
 
         }

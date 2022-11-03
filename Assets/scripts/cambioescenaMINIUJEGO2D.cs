@@ -34,7 +34,6 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
 
 
         }
-        Debug.Log(col.gameObject);
         
     }
      void OnTriggerEnter(Collider other)
@@ -53,6 +52,18 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
             
             fps.transform.position = new Vector3(539.8755f, 156.493f, -490.7579f);
             inventario.madera2 = true;
+
+        }
+
+        if(other.gameObject.name == "PORTAL FINAL FINAL")
+        {
+            SceneManager.LoadScene("Final");
+            inventario.HasBronzeKey = false;
+            inventario.win = false;
+            inventario.madera1 = false;
+            inventario.madera2 = false;
+            inventario.HasGoldenKey = false;
+            fps.SetActive(false);
 
         }
     }
