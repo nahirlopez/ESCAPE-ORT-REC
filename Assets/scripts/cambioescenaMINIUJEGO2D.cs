@@ -21,8 +21,8 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-         tp2 = GameObject.FindGameObjectWithTag("TP2");
-        FINAL = GameObject.FindGameObjectWithTag("portal2juego");
+        
+        
     }
 
      void OnCollisionEnter(Collision col)
@@ -56,7 +56,7 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
 
         }
 
-        if(other.gameObject.name == "PORTAL FINAL FINAL")
+        if(other.gameObject.tag == "PortalFinal")
         {
             SceneManager.LoadScene("Final");
             inventario.HasBronzeKey = false;
@@ -67,5 +67,14 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
             fps.SetActive(false);
 
         }
-    }
+
+       
+    } public void LoadReferences()
+        {
+            tp2 = GameObject.FindGameObjectWithTag("TP2");
+
+            
+
+            FINAL = GameObject.FindGameObjectWithTag("portal2juego");
+        }
 }

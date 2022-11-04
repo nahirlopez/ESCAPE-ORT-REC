@@ -22,6 +22,7 @@ TagManager:
   - txt_interaccion
   - TP2
   - portal2juego
+  - FINAL
   layers:
   - Default
   - TransparentFX

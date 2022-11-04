@@ -8,6 +8,7 @@ public class SETUPPLAYER : MonoBehaviour
     void Start()
     {
         GameObject.FindGameObjectWithTag("MainCamera").GetComponent<raycaster>().LoadReferences();
+        GameObject.FindGameObjectWithTag("Player").GetComponent<cambioescenaMINIUJEGO2D>().LoadReferences();
     }
 
     // Update is called once per frame
