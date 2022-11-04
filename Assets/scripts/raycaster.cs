@@ -38,7 +38,7 @@ public class raycaster : MonoBehaviour
     void Start()
     {
         
-        portalfinal.SetActive(false);
+
 
        
 
