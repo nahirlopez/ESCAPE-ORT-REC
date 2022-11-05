@@ -146,7 +146,7 @@ public class raycaster : MonoBehaviour
             {
                 
                 canopen = false;
-                pickableInRange.SetActive(true);
+                pickableInRange.SetActive(false);
                 pickableInRange = null;
             }
         }
@@ -156,7 +156,7 @@ public class raycaster : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.R) && EXIT && pickableInRange)
         {
-            pickableInRange.SetActive(false);
+            pickableInRange.SetActive(true);
             contador = 0;
             pickableInRange = null;
         }
@@ -189,7 +189,7 @@ public class raycaster : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R) && openabledoor && door)
         {
             //door.SetActive(false);
-            door.GetComponent<Animator>
+            door.GetComponent<Animator>().Play("NewOpenDoorAnimation");
             
         }
         
