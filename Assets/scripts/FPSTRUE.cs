@@ -8,6 +8,8 @@ public class FPSTRUE : MonoBehaviour
 
     public GameObject fps;
     public InventorySO inventario;
+    public GameObject ivo;
+    public GameObject jero;
 
     void Start()
     {
@@ -26,6 +28,12 @@ public class FPSTRUE : MonoBehaviour
         if (inventario.win == true)
         {
             fps.SetActive(true);
+            
         }
+    }
+
+    public void LoadReferences()
+    {
+        ivo = GameObject.Find("FANTASMA IVO");
     }
 }

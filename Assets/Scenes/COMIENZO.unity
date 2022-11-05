@@ -40996,8 +40996,8 @@ MonoBehaviour:
     que en vez de morir se durmi\xF3 y no envejeci\xF3."
   - 'Ranzo: Porfavor, escapa de aca. Ayuda a que los fantasmas puedan volar libremente
     por el cielo.'
-  - "Ranzo: S\xE9 que la llave esta en la pecera, pero yo soy transparente y no logro
-    agarrarla."
+  - "Ranzo: S\xE9 que la llave esta en la pecera, al final del pasillo, pero yo soy
+    transparente y no logro agarrarla."
   - "Ranzo: \xBFQu\xE9 esperas? \xA1BUSCALA!"
   TextoDelDialogo: {fileID: 612224534}
   Master: {fileID: 87556930}
