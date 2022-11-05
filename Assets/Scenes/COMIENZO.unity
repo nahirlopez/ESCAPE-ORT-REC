@@ -43588,6 +43588,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fps: {fileID: 870436882}
   inventario: {fileID: 11400000, guid: 011fa002c6f22cc4b82e9bfe051fcf24, type: 2}
+  ivo: {fileID: 0}
+  jero: {fileID: 0}
 --- !u!4 &1636629906
 Transform:
   m_ObjectHideFlags: 0
@@ -45512,7 +45514,7 @@ GameObject:
   - component: {fileID: 1741722610}
   - component: {fileID: 1741722612}
   m_Layer: 0
-  m_Name: FANTASMA - TERMINADO IVO
+  m_Name: FANTASMA IVO
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -85938,7 +85940,7 @@ GameObject:
   - component: {fileID: 4092070453146852578}
   - component: {fileID: 4092070453146852580}
   m_Layer: 0
-  m_Name: FANTASMA JERO - LISTO CON BLENDER
+  m_Name: FANTASMA JERO
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
