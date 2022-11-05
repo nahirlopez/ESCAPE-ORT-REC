@@ -2224,7 +2224,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 11111
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -8721,7 +8721,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 11111
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -8836,7 +8836,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &150996598
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20961,7 +20961,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 11111
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -21039,7 +21039,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -33285,7 +33285,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 11111
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -43569,7 +43569,7 @@ GameObject:
   - component: {fileID: 1636629907}
   m_Layer: 0
   m_Name: '[STAYTRUE]'
-  m_TagString: Untagged
+  m_TagString: EditorOnly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43590,6 +43590,7 @@ MonoBehaviour:
   inventario: {fileID: 11400000, guid: 011fa002c6f22cc4b82e9bfe051fcf24, type: 2}
   ivo: {fileID: 0}
   jero: {fileID: 0}
+  ranzo: {fileID: 0}
 --- !u!4 &1636629906
 Transform:
   m_ObjectHideFlags: 0
@@ -56536,7 +56537,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100016, guid: aba6c6cbefc6e5542b14172375b3ed36, type: 3}
       propertyPath: m_Name
-      value: RANZO
+      value: FANTASMA RANZO
       objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: aba6c6cbefc6e5542b14172375b3ed36, type: 3}
       propertyPath: m_TagString
@@ -57496,6 +57497,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61130987426258993, guid: e893efe3f4dccf14ab6ac03a583fcc2b,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e893efe3f4dccf14ab6ac03a583fcc2b, type: 3}
