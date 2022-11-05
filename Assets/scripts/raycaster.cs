@@ -35,14 +35,14 @@ public class raycaster : MonoBehaviour
     public GameObject netbook;
     public InventorySO inventario;
 
-    
+     AudioSource source;
     public AudioClip puerta; 
 
     void Start()
     {
-        
 
 
+       source =  GameObject.FindGameObjectWithTag("Player").GetComponent<AudioSource>();
        
 
     }
@@ -194,8 +194,8 @@ public class raycaster : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R) && openabledoor && door)
         {
             door.SetActive(false);
-            //source.clip = puerta;
-            //source.Play();
+            source.clip = puerta;
+            source.Play();
             //door.GetComponent<Animator>().Play("NewOpenDoorAnimation");
             
         }

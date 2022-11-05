@@ -40037,8 +40037,7 @@ MonoBehaviour:
   tecla: {fileID: 0}
   netbook: {fileID: 0}
   inventario: {fileID: 11400000, guid: 011fa002c6f22cc4b82e9bfe051fcf24, type: 2}
-  source: {fileID: 0}
-  puerta: {fileID: 0}
+  puerta: {fileID: 8300000, guid: a03576e2a5c18e34695fc8115041d158, type: 3}
 --- !u!114 &1394826925
 MonoBehaviour:
   m_ObjectHideFlags: 0
