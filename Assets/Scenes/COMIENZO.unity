@@ -1852,13 +1852,21 @@ PrefabInstance:
       propertyPath: m_Pitch
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: Priority
+      value: 163
+      objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_MouseLook.lockCursor
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_RunSpeed
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_WalkSpeed
@@ -9205,14 +9213,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 179859691}
-  m_LocalRotation: {x: -0.5017257, y: -0.49826828, z: -0.49826825, w: 0.50172585}
-  m_LocalPosition: {x: -1.9719998, y: 1.1536957, z: -2.066}
+  m_LocalRotation: {x: -0.5026227, y: -0.5058185, z: -0.49938735, w: 0.49206743}
+  m_LocalPosition: {x: -1.97, y: 1.44, z: -2.07}
   m_LocalScale: {x: 1.1093905, y: 1.0582227, z: 1.0582225}
   m_Children:
   - {fileID: 193537978}
   m_Father: {fileID: 193537936}
   m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -89.604004}
+  m_LocalEulerAnglesHint: {x: -91.001, y: -13.947998, z: -76.65399}
 --- !u!95 &179859693
 Animator:
   serializedVersion: 3
@@ -48532,7 +48540,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1802641706}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.11, y: -6.69, z: 39.61}
+  m_LocalPosition: {x: -2.11, y: -6.23, z: 66.96}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 933650446}

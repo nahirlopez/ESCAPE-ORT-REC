@@ -193,10 +193,10 @@ public class raycaster : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.R) && openabledoor && door)
         {
-            door.SetActive(false);
+            //door.SetActive(false);
             source.clip = puerta;
             source.Play();
-            //door.GetComponent<Animator>().Play("NewOpenDoorAnimation");
+            door.GetComponent<Animator>().Play("NewOpenDoorAnimation");
             
         }
         
