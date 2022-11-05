@@ -26,6 +26,8 @@ TagManager:
   - tension
   - toctoc
   - gritito
+  - "ara\xF1ita"
+  - cueva
   layers:
   - Default
   - TransparentFX

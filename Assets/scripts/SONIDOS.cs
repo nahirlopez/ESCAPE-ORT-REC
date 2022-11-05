@@ -21,6 +21,8 @@ public class SONIDOS : MonoBehaviour
     public AudioClip grito;
     public AudioClip toctoc;
     public AudioClip tension;
+    public AudioClip ouch;
+    public AudioClip cueva;
     //FirstPersonController fpc;
     //public UnityStandardAssets.Characters.FirstPerson.FirstPersonController controller;
 
@@ -39,7 +41,18 @@ public class SONIDOS : MonoBehaviour
             source.Play();
         }
 
-        if(other.gameObject.tag == "tension")
+        if (other.gameObject.tag == "arañita")
+        {
+            source.clip = ouch;
+            source.Play();
+        }
+        if (other.gameObject.tag == "cueva")
+        {
+            source.clip = cueva;
+            source.Play();
+        }
+
+        if (other.gameObject.tag == "tension")
         {
             source.clip = tension;
             source.Play();

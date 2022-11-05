@@ -5,7 +5,8 @@ using UnityEngine;
 public class juego2 : MonoBehaviour
 {
     public GameObject fps;
-
+    public AudioSource source;
+    public AudioClip wrong;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,8 @@ public class juego2 : MonoBehaviour
         if (col.gameObject.tag == "DEATH")
         {
             fps.transform.position = new Vector3(-298.6775f, 15.10432f, -2751.258f);
+            source.clip = wrong;
+            source.Play();
         }
     }
 
