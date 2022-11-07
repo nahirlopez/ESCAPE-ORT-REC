@@ -31372,7 +31372,7 @@ Transform:
   - {fileID: 1039036518}
   m_Father: {fileID: 1153764914}
   m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -125.10275}
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -22.649008}
 --- !u!111 &658373983
 Animation:
   m_ObjectHideFlags: 0
@@ -31382,10 +31382,11 @@ Animation:
   m_GameObject: {fileID: 658373980}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: e0b346002d90a5043ae2594aceebb2a5, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 546b6fcc9048b9c4281a48dca493988b, type: 2}
   - {fileID: 7400000, guid: f620aaee6307e274fa7abf6a4def7fb7, type: 2}
+  - {fileID: 7400000, guid: e0b346002d90a5043ae2594aceebb2a5, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -58631,7 +58632,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 299.5, y: -198}
+  m_AnchoredPosition: {x: 268, y: -180}
   m_SizeDelta: {x: 162.98206, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1545994561
@@ -58662,7 +58663,7 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: '"E" para interactuar'
