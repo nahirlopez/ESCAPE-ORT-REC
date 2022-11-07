@@ -18,6 +18,7 @@ public class raycaster : MonoBehaviour
     bool inRange = false;
     public GameObject pickableInRange;
     public GameObject door;
+    public GameObject dooor;
     
     bool canopen = false;
     int contador = 0;
@@ -50,17 +51,17 @@ public class raycaster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
 
-            
+
+
         if (isNPC)
         {
             DialogueName NPCName = NPC.GetComponent<DialogueName>();
-            
 
-                Dialoguito = NPCName.Dialogo;
-                txt_dialogo = NPCName.TextoDelDialogo;
-                dialogoUI = NPCName.Master;
+
+            Dialoguito = NPCName.Dialogo;
+            txt_dialogo = NPCName.TextoDelDialogo;
+            dialogoUI = NPCName.Master;
 
             txt_dialogo.text = Dialoguito[IncDialogo];
             dialogoUI.SetActive(true);
@@ -71,9 +72,9 @@ public class raycaster : MonoBehaviour
             dialogoUI = null;
             txt_dialogo = null;
         }
-       
-        
-        
+
+
+
         if (contador == 5)
         {
             EXIT = true;
@@ -89,7 +90,7 @@ public class raycaster : MonoBehaviour
             if (pickablescript)
             {
                 pickablescript.tick.SetActive(true);
-               
+
             }
             contador++;
 
@@ -123,7 +124,7 @@ public class raycaster : MonoBehaviour
             if (pickableInRange.name == "Llave_oro")
             {
                 inventario.HasGoldenKey = true;
-                
+
 
             }
 
@@ -147,7 +148,7 @@ public class raycaster : MonoBehaviour
         {
             if (isopen && (Input.GetKeyDown(KeyCode.R) && canopen))
             {
-                
+
                 canopen = false;
                 pickableInRange.SetActive(false);
                 pickableInRange = null;
@@ -157,7 +158,7 @@ public class raycaster : MonoBehaviour
         }
 
 
-        
+
 
         if (Input.GetKeyDown(KeyCode.R) && EXIT && pickableInRange)
         {
@@ -169,23 +170,23 @@ public class raycaster : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && isNPC)
         {
             IncDialogo++;
-            
+
             if (IncDialogo == Dialoguito.Length)
             {
                 IncDialogo = 0;
             }
 
-            
+
 
         }
 
         if (pickableInRange || door)
         {
             tecla.text = "'R' para interactuar";
-            
+
         }
-        
-    if (tecla.text != null && pickableInRange == false && door == false)
+
+        if (tecla.text != null && pickableInRange == false && door == false)
         {
             tecla.text = "";
         }
@@ -196,10 +197,16 @@ public class raycaster : MonoBehaviour
             //door.SetActive(false);
             source.clip = puerta;
             source.Play();
-            door.GetComponent<Animator>().Play("NewOpenDoorAnimation");
-            
+            door.GetComponent<Animator>().Play("DoorBehindRanzo");
+
         }
-        
+        if (Input.GetKeyDown(KeyCode.R) && openabledoor && dooor)
+        {
+            source.clip = puerta;
+            source.Play();
+            dooor.GetComponent<Animator>().Play("dooor.anim2.anim");
+        }
+
     }
 
     void FixedUpdate()
