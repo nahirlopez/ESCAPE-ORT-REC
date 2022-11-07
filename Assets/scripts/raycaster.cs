@@ -18,7 +18,7 @@ public class raycaster : MonoBehaviour
     bool inRange = false;
     public GameObject pickableInRange;
     public GameObject door;
-    public GameObject dooor;
+    //public GameObject dooor;
     
     bool canopen = false;
     int contador = 0;
@@ -150,7 +150,7 @@ public class raycaster : MonoBehaviour
             {
 
                 canopen = false;
-                //pickableInRange.SetActive(false);
+                pickableInRange.SetActive(false);
                 pickableInRange = null;
                 //pickableInRange.GetComponent<Animator>().Play("GameObject 2");
                 source.clip = puerta;
@@ -181,13 +181,13 @@ public class raycaster : MonoBehaviour
 
         }
 
-        if (pickableInRange || door || dooor)
+        if (pickableInRange || door)
         {
             tecla.text = "'R' para interactuar";
 
         }
 
-        if (tecla.text != null && pickableInRange == false && door == false && dooor == false)
+        if (tecla.text != null && pickableInRange == false && door == false)
         {
             tecla.text = "";
         }
@@ -201,12 +201,7 @@ public class raycaster : MonoBehaviour
             //door.GetComponent<Animator>().Play("DoorBehindRanzo");
 
         }
-        if (Input.GetKeyDown(KeyCode.R) && openabledoor && dooor)
-        {
-            source.clip = puerta;
-            source.Play();
-            dooor.GetComponent<Animator>().Play("dooor.anim2.anim");
-        }
+       
 
     }
 
@@ -253,14 +248,14 @@ public class raycaster : MonoBehaviour
 
 
             }
-            if (hit.collider.gameObject.CompareTag("dooor"))
-            {
+            //if (hit.collider.gameObject.CompareTag("dooor"))
+            //{
 
-                dooor = hit.collider.gameObject;
-                openabledoor = true;
+            //    dooor = hit.collider.gameObject;
+            //    openabledoor = true;
 
 
-            }
+            //}
         }
         else
         {
