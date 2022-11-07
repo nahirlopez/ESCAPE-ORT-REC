@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HasBronzeKey: 1
   HasGoldenKey: 1
-  madera1: 1
+  madera1: 0
   madera2: 1
-  win: 1
+  win: 0

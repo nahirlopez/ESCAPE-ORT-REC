@@ -8,10 +8,11 @@ public class btnsMenu : MonoBehaviour
 {
 
     public GameObject comojugar;
+    public GameObject FPS;
     // Start is called before the first frame update
     void Start()
     {
-        
+        FPS = GameObject.FindGameObjectWithTag("BOTON JUGAR");
     }
 
     // Update is called once per frame
@@ -23,6 +24,7 @@ public class btnsMenu : MonoBehaviour
     public void JUGAR()
     {
         SceneManager.LoadScene("COMIENZO");
+        FPS.SetActive(true);
     }
 
     public void ComoJugar()

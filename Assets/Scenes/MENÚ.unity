@@ -804,6 +804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   comojugar: {fileID: 1948601032}
+  FPS: {fileID: 0}
 --- !u!4 &1081143007
 Transform:
   m_ObjectHideFlags: 0

@@ -150,8 +150,9 @@ public class raycaster : MonoBehaviour
             {
 
                 canopen = false;
-                pickableInRange.SetActive(false);
+                //pickableInRange.SetActive(false);
                 pickableInRange = null;
+                //pickableInRange.GetComponent<Animator>().Play("GameObject 2");
                 source.clip = puerta;
                 source.Play();
             }
@@ -180,13 +181,13 @@ public class raycaster : MonoBehaviour
 
         }
 
-        if (pickableInRange || door)
+        if (pickableInRange || door || dooor)
         {
             tecla.text = "'R' para interactuar";
 
         }
 
-        if (tecla.text != null && pickableInRange == false && door == false)
+        if (tecla.text != null && pickableInRange == false && door == false && dooor == false)
         {
             tecla.text = "";
         }
@@ -194,10 +195,10 @@ public class raycaster : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.R) && openabledoor && door)
         {
-            //door.SetActive(false);
+            door.SetActive(false);
             source.clip = puerta;
             source.Play();
-            door.GetComponent<Animator>().Play("DoorBehindRanzo");
+            //door.GetComponent<Animator>().Play("DoorBehindRanzo");
 
         }
         if (Input.GetKeyDown(KeyCode.R) && openabledoor && dooor)
@@ -248,6 +249,14 @@ public class raycaster : MonoBehaviour
             {
                
                 door = hit.collider.gameObject;
+                openabledoor = true;
+
+
+            }
+            if (hit.collider.gameObject.CompareTag("dooor"))
+            {
+
+                dooor = hit.collider.gameObject;
                 openabledoor = true;
 
 

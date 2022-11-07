@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MADERAS : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class MADERAS : MonoBehaviour
     public InventorySO inventario;
     public GameObject maderauno;
     public GameObject maderados;
+    public GameObject ft;
     // Update is called once per frame
     void Update()
     {
@@ -22,6 +24,18 @@ public class MADERAS : MonoBehaviour
         if (inventario.madera2 == true)
         {
             maderados.SetActive(false);
+        }
+        if (inventario.HasGoldenKey == true)
+        {
+            ft.SetActive(true);
+        }
+        else
+        {
+            ft.SetActive(false);
+        }
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            SceneManager.LoadScene("MENÚ");
         }
     }
 }

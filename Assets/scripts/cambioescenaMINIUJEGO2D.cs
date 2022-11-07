@@ -59,6 +59,7 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
         if(other.gameObject.tag == "PortalFinal")
         {
             SceneManager.LoadScene("Final");
+            
             inventario.HasBronzeKey = false;
             inventario.win = false;
             inventario.madera1 = false;
