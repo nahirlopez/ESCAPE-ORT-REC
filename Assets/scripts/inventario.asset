@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5db281b48a8478f45b86eaa69e1d3d9b, type: 3}
   m_Name: inventario
   m_EditorClassIdentifier: 
-  HasBronzeKey: 1
-  HasGoldenKey: 1
+  HasBronzeKey: 0
+  HasGoldenKey: 0
   madera1: 0
-  madera2: 1
+  madera2: 0
   win: 0
