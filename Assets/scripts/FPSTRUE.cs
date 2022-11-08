@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FPSTRUE : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class FPSTRUE : MonoBehaviour
         inventario.madera1 = false;
         inventario.madera2 = false;
         inventario.HasGoldenKey = false;
-
+        inventario.start = false;
        
     }
 
@@ -44,7 +45,8 @@ public class FPSTRUE : MonoBehaviour
         }
 
         if (inventario.madera2 == true)
-        {  int i = 0;
+        {
+            int i = 0;
             while (i < jero.GetComponent<DialogueName>().Dialogo.Length)
             {
                 jero.GetComponent<DialogueName>().Dialogo[i] = "";
@@ -52,7 +54,7 @@ public class FPSTRUE : MonoBehaviour
             }
             jero.GetComponent<DialogueName>().Dialogo[0] = "Jero: Oh.. se te hizo fácil. ";
             jero.GetComponent<DialogueName>().Dialogo[1] = "Jero: Intenta agarrar la llave y ve a hablar con Ranzo";
-            
+
         }
 
         if (inventario.HasGoldenKey == true)
@@ -67,12 +69,32 @@ public class FPSTRUE : MonoBehaviour
             ranzo.GetComponent<DialogueName>().Dialogo[1] = "Ranzo: Ve a la salida de acá a mi derecha.";
             ranzo.GetComponent<DialogueName>().Dialogo[2] = "Ranzo: ¡ESCAPEMOS!";
         }
-    }
+        if (inventario.start == true)
+        {
+            fps.SetActive(true);
+            inventario.start = false;
+        }
 
-    public void LoadReferences()
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            inventario.HasBronzeKey = false;
+            inventario.win = false;
+            inventario.madera1 = false;
+            inventario.madera2 = false;
+            inventario.HasGoldenKey = false;
+            inventario.start = false;
+
+            fps.transform.position = new Vector3(530.7f, 159.91f, -659.79f);
+            fps.transform.eulerAngles = new Vector3(0, 50.163f, 0);
+            SceneManager.LoadScene("COMIENZO");
+        }
+            }
+
+            public void LoadReferences()
     {
         ivo = GameObject.Find("FANTASMA IVO");
         jero = GameObject.Find("FANTASMA JERO");
         ranzo = GameObject.Find("FANTASMA RANZO");
     }
+
 }

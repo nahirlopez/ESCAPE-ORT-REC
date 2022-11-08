@@ -8,23 +8,40 @@ public class btnsMenu : MonoBehaviour
 {
 
     public GameObject comojugar;
-    public GameObject FPS;
+    
+    public InventorySO inventario;
+
     // Start is called before the first frame update
     void Start()
     {
-        FPS = GameObject.FindGameObjectWithTag("BOTON JUGAR");
+        
+        inventario.start = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            inventario.start = true;
+         SceneManager.LoadScene("COMIENZO");
+            
+        }
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            comojugar.SetActive(true);
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            comojugar.SetActive(false);
+        }
     }
 
     public void JUGAR()
     {
+        inventario.start = true;
         SceneManager.LoadScene("COMIENZO");
-        FPS.SetActive(true);
+        
     }
 
     public void ComoJugar()

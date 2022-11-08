@@ -13,6 +13,7 @@ public class MADERAS : MonoBehaviour
     public InventorySO inventario;
     public GameObject maderauno;
     public GameObject maderados;
+    public GameObject fps;
     public GameObject ft;
     // Update is called once per frame
     void Update()
@@ -34,8 +35,22 @@ public class MADERAS : MonoBehaviour
             ft.SetActive(false);
         }
         if (Input.GetKeyDown(KeyCode.Tab))
-        {
-            SceneManager.LoadScene("MENÚ");
+        { 
+            fps.SetActive(false);
+            StartCoroutine(Timedelay());
+
         }
+    }
+
+
+    public void LoadReferences()
+    {
+        fps = GameObject.FindGameObjectWithTag("BOTON JUGAR");
+    }
+    IEnumerator Timedelay()
+    {
+        yield return new WaitForSeconds(0.3f);
+         SceneManager.LoadScene("MENÚ");
+
     }
 }

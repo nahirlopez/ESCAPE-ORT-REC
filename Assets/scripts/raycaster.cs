@@ -79,7 +79,7 @@ public class raycaster : MonoBehaviour
         {
             EXIT = true;
         }
-        if (Input.GetKeyDown(KeyCode.R) && inRange)
+        if (Input.GetKeyDown(KeyCode.Q) && inRange)
         {
 
             pickableInRange.SetActive(false);
@@ -144,9 +144,9 @@ public class raycaster : MonoBehaviour
 
         }
 
-        if (Input.GetKeyDown(KeyCode.R) && canopen)
+        if (Input.GetKeyDown(KeyCode.Q) && canopen)
         {
-            if (isopen && (Input.GetKeyDown(KeyCode.R) && canopen))
+            if (isopen && (Input.GetKeyDown(KeyCode.Q) && canopen))
             {
 
                 canopen = false;
@@ -161,7 +161,7 @@ public class raycaster : MonoBehaviour
 
 
 
-        if (Input.GetKeyDown(KeyCode.R) && EXIT && pickableInRange)
+        if (Input.GetKeyDown(KeyCode.Q) && EXIT && pickableInRange)
         {
             pickableInRange.SetActive(true);
             contador = 0;
@@ -183,7 +183,7 @@ public class raycaster : MonoBehaviour
 
         if (pickableInRange || door)
         {
-            tecla.text = "'R' para interactuar";
+            tecla.text = "'Q' para interactuar";
 
         }
 
@@ -193,7 +193,7 @@ public class raycaster : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(KeyCode.R) && openabledoor && door)
+        if (Input.GetKeyDown(KeyCode.Q) && openabledoor && door)
         {
             door.SetActive(false);
             source.clip = puerta;

@@ -30,6 +30,7 @@ TagManager:
   - cueva
   - dooor
   - BOTON JUGAR
+  - MADERAS
   layers:
   - Default
   - TransparentFX

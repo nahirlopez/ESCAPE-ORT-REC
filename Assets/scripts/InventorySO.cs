@@ -16,4 +16,6 @@ public class InventorySO : ScriptableObject
 
     public bool win;
 
+    public bool start;
+
 }
