@@ -14,6 +14,7 @@ public class Moviminet2D : MonoBehaviour
 
 
     public GameObject screamer;
+    public GameObject portalfinal;
     public AudioSource source;
     public AudioClip SCREAM;
     public AudioClip OOF;
@@ -83,6 +84,7 @@ public class Moviminet2D : MonoBehaviour
 
             StartCoroutine(Timedelay());
 
+            portalfinal.SetActive(true);
 
         }
 

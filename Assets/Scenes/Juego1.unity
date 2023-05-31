@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.2977143, g: 0.28311145, b: 0.23106635, a: 1}
+  m_IndirectSpecularColor: {r: 0.297714, g: 0.28311124, b: 0.23106644, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -779,6 +779,7 @@ MonoBehaviour:
   jumpForce: 2.3
   maxJump: 2
   screamer: {fileID: 688908780}
+  portalfinal: {fileID: 1224049356}
   source: {fileID: 613042917}
   SCREAM: {fileID: 8300000, guid: 334284999f9b4934a9bb03808c0fad0f, type: 3}
   OOF: {fileID: 8300000, guid: 785de84ef63203e46bc33a2f9f6b1bdf, type: 3}
@@ -2322,7 +2323,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1224049357
 SpriteRenderer:
   m_ObjectHideFlags: 0
