@@ -49,6 +49,7 @@ public class raycaster : MonoBehaviour
 
     }
 
+
     // Update is called once per frame
     void Update()
     {
@@ -188,7 +189,7 @@ public class raycaster : MonoBehaviour
 
         }
 
-        if (tecla.text != null && pickableInRange == false && door == false) // 
+        if (tecla != null && pickableInRange == false && door == false) // 
         {
             tecla.text = "";
         }

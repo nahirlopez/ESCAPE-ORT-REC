@@ -21,7 +21,6 @@ public class SceneSwitch2D : MonoBehaviour
             inventario.win = true;
             inventario.madera1 = true;
         }
-
     }
 }
 
