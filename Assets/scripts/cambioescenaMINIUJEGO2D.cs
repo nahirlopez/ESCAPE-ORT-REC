@@ -16,6 +16,7 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
     public GameObject FINAL;
     
     
+    
     public InventorySO inventario;
 
     // Update is called once per frame
@@ -58,8 +59,11 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
 
         if(other.gameObject.tag == "PortalFinal")
         {
+
             SceneManager.LoadScene("Final");
-            
+
+            fps.transform.position = new Vector3(530.7f, 156.6976f, -659.79f);
+            other.gameObject.SetActive(false);
             inventario.HasBronzeKey = false;
             inventario.win = false;
             inventario.madera1 = false;

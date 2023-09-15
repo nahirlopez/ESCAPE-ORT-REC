@@ -44,7 +44,8 @@ public class raycaster : MonoBehaviour
 
 
        source =  GameObject.FindGameObjectWithTag("Player").GetComponent<AudioSource>();
-       
+        tecla = GameObject.FindGameObjectWithTag("txt_interaccion").GetComponent<Text>();
+
 
     }
 
@@ -187,7 +188,7 @@ public class raycaster : MonoBehaviour
 
         }
 
-        if (tecla.text != null && pickableInRange == false && door == false)
+        if (tecla.text != null && pickableInRange == false && door == false) // 
         {
             tecla.text = "";
         }
@@ -245,8 +246,6 @@ public class raycaster : MonoBehaviour
                
                 door = hit.collider.gameObject;
                 openabledoor = true;
-
-
             }
             //if (hit.collider.gameObject.CompareTag("dooor"))
             //{
