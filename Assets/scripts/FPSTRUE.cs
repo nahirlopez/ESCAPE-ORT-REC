@@ -31,7 +31,7 @@ public class FPSTRUE : MonoBehaviour
 
         if (inventario.win == true)
         {
-            fps.SetActive(true);
+            StartCoroutine(GameFinished());
             if (ivo)
             {
                 int i = 0;
@@ -104,7 +104,12 @@ public class FPSTRUE : MonoBehaviour
 
         }
     }
+    IEnumerator GameFinished()
+    {
+        yield return new WaitForSeconds(0.2f);
 
+        fps.SetActive(true);
+    }
     IEnumerator Timedelay()
     {
         yield return new WaitForSeconds(0.3f);
