@@ -28,10 +28,11 @@ public class FPSTRUE : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        LoadReferences();
         if (inventario.win == true)
         {
             fps.SetActive(true);
+
             if (ivo)
             {
                 int i = 0;
