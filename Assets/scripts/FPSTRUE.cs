@@ -96,9 +96,22 @@ public class FPSTRUE : MonoBehaviour
             fps.transform.eulerAngles = new Vector3(0, 50.163f, 0);
             SceneManager.LoadScene("COMIENZO");
         }
-            }
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            
+            StartCoroutine(Timedelay());
+            //fps.SetActive(false);
 
-            public void LoadReferences()
+        }
+    }
+
+    IEnumerator Timedelay()
+    {
+        yield return new WaitForSeconds(0.3f);
+        SceneManager.LoadScene("MENÚ");
+
+    }
+    public void LoadReferences()
     {
         ivo = GameObject.Find("FANTASMA IVO");
         jero = GameObject.Find("FANTASMA JERO");

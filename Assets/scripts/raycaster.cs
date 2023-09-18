@@ -183,7 +183,7 @@ public class raycaster : MonoBehaviour
 
         }
 
-        if (pickableInRange || door)
+        if (pickableInRange && tecla != null || door && tecla != null)
         {
             tecla.text = "'Q' para interactuar";
 
