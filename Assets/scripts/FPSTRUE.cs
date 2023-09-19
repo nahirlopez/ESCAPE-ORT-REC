@@ -12,26 +12,36 @@ public class FPSTRUE : MonoBehaviour
     public GameObject ivo;
     public GameObject jero;
     public GameObject ranzo;
+    public GameObject portalfinal;
 
-    
+
     void Start()
     {
-        inventario.HasBronzeKey = false;
-        inventario.win = false;
-        inventario.madera1 = false;
-        inventario.madera2 = false;
-        inventario.HasGoldenKey = false;
-        inventario.start = false;
-       
+        //inventario.HasBronzeKey = false;
+        //inventario.win = false;
+        //inventario.madera1 = false;
+        //inventario.madera2 = false;
+        //inventario.HasGoldenKey = false;
+        //inventario.start = false;
+        LoadReferences();
+        portalfinal.SetActive(false);
+
+        if (inventario.win == true)
+        {
+
+            fps.transform.position = new Vector3(516.6133f, 156.1673f, -492.4995f);
+            fps.transform.eulerAngles = new Vector3(0, 66.36301f, 0);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        LoadReferences();
+        
+        
         if (inventario.win == true)
         {
-            fps.SetActive(true);
+
 
             if (ivo)
             {
@@ -66,6 +76,7 @@ public class FPSTRUE : MonoBehaviour
         if (inventario.HasGoldenKey == true)
         {
             int i = 0;
+            portalfinal.SetActive(true);
             if (ranzo)
             {
                 while (i < ranzo.GetComponent<DialogueName>().Dialogo.Length)
@@ -80,7 +91,7 @@ public class FPSTRUE : MonoBehaviour
         }
         if (inventario.start == true)
         {
-            fps.SetActive(true);
+            
             inventario.start = false;
         }
 
@@ -114,6 +125,7 @@ public class FPSTRUE : MonoBehaviour
     }
     public void LoadReferences()
     {
+       
         ivo = GameObject.Find("FANTASMA IVO");
         jero = GameObject.Find("FANTASMA JERO");
         ranzo = GameObject.Find("FANTASMA RANZO");

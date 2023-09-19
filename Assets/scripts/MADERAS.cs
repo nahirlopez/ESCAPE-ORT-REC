@@ -36,17 +36,17 @@ public class MADERAS : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Tab))
         { 
-            fps.SetActive(false);
+            //fps.SetActive(false);
             StartCoroutine(Timedelay());
 
         }
     }
 
 
-    public void LoadReferences()
-    {
-        fps = GameObject.FindGameObjectWithTag("BOTON JUGAR");
-    }
+    //public void LoadReferences()
+    //{
+    //    fps = GameObject.FindGameObjectWithTag("BOTON JUGAR");
+    //}
     IEnumerator Timedelay()
     {
         yield return new WaitForSeconds(0.3f);

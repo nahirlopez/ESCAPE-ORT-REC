@@ -32,8 +32,7 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
         {
             SceneManager.LoadScene("Juego1");
 
-            fps.SetActive(false);
-
+           
 
         }
         
@@ -60,7 +59,7 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
         if(other.gameObject.tag == "PortalFinal")
         {
 
-            SceneManager.LoadScene("Final");
+           
 
             fps.transform.position = new Vector3(530.7f, 156.6976f, -659.79f);
             other.gameObject.SetActive(false);
@@ -69,11 +68,20 @@ public class cambioescenaMINIUJEGO2D : MonoBehaviour
             inventario.madera1 = false;
             inventario.madera2 = false;
             inventario.HasGoldenKey = false;
-            fps.SetActive(false);
+            
+            SceneManager.LoadScene("Final");
 
         }
+        if (inventario.win == true)
+        {
+            tp1.SetActive(false);
+        }
+        if (inventario.madera2 == true)
+        {
+            tp2.SetActive(false);
+        }
 
-       
+
     } public void LoadReferences()
         {
             tp2 = GameObject.FindGameObjectWithTag("TP2");

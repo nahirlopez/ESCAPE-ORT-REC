@@ -54,7 +54,7 @@ public class raycaster : MonoBehaviour
     void Update()
     {
 
-
+        LoadReferences();
 
         if (isNPC)
         {
@@ -138,11 +138,11 @@ public class raycaster : MonoBehaviour
                 canopen = true;
             }
 
-            if (inventario.HasGoldenKey == true)
-            {
-                portalfinal.SetActive(true);
+            //if (inventario.HasGoldenKey == true)
+            //{
+            //    portalfinal.SetActive(true);
 
-            }
+            
 
         }
 
@@ -276,10 +276,10 @@ public class raycaster : MonoBehaviour
 
     public void LoadReferences()
     {
-        portalfinal = GameObject.FindGameObjectWithTag("PortalFinal");
+        //portalfinal = GameObject.FindGameObjectWithTag("PortalFinal");
 
         tecla = GameObject.FindGameObjectWithTag("txt_interaccion").GetComponent<Text>();
 
-        portalfinal.SetActive(false);
+        
     }
 }

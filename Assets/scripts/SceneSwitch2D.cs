@@ -16,10 +16,11 @@ public class SceneSwitch2D : MonoBehaviour
         if (col.gameObject.name == "PuntoLlegada")
         {
 
-            SceneManager.LoadScene("COMIENZO");
+           
             Debug.Log("Hace contacto");
             inventario.win = true;
             inventario.madera1 = true;
+            SceneManager.LoadScene("COMIENZO");
         }
     }
 

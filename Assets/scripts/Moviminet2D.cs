@@ -19,8 +19,12 @@ public class Moviminet2D : MonoBehaviour
     public AudioClip SCREAM;
     public AudioClip OOF;
 
+
+    public GameObject[] BORRAR;
+
     void Start()
     {
+        HideAllObjects();
         hasJump = maxJump;
         rb = GetComponent<Rigidbody2D>();
     }
@@ -82,13 +86,30 @@ public class Moviminet2D : MonoBehaviour
             source.clip = SCREAM;
             source.Play();
 
+
+
             StartCoroutine(Timedelay());
 
             portalfinal.SetActive(true);
-
+            ShowAllObjects();
         }
 
 
+    }
+    void HideAllObjects()
+    {
+        for (int i = 0; i < BORRAR.Length; i++)
+        {
+            BORRAR[i].SetActive(false);
+        }
+    }
+
+    void ShowAllObjects()
+    {
+        for (int i = 0; i < BORRAR.Length; i++)
+        {
+            BORRAR[i].SetActive(true);
+        }
     }
     IEnumerator Timedelay()
     {
