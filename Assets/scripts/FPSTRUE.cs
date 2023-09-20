@@ -69,7 +69,7 @@ public class FPSTRUE : MonoBehaviour
                     i++;
                 }
                 jero.GetComponent<DialogueName>().Dialogo[0] = "Jero: Oh.. se te hizo fácil. ";
-                jero.GetComponent<DialogueName>().Dialogo[1] = "Jero: Intenta agarrar la llave dorada y ve al comienzo";
+                jero.GetComponent<DialogueName>().Dialogo[1] = "Jero: Intenta agarrar la llave y ve a hablar con Ranzo";
             }
         }
 
