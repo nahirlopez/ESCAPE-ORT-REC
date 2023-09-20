@@ -13,6 +13,7 @@ public class FPSTRUE : MonoBehaviour
     public GameObject jero;
     public GameObject ranzo;
     public GameObject portalfinal;
+    public GameObject portalmj1;
 
 
     void Start()
@@ -37,11 +38,11 @@ public class FPSTRUE : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        
+
+
         if (inventario.win == true)
         {
-
+            portalmj1.SetActive(false);
 
             if (ivo)
             {
@@ -54,7 +55,7 @@ public class FPSTRUE : MonoBehaviour
 
                 ivo.GetComponent<DialogueName>().Dialogo[0] = "Ivo: ¿Y? ¿Cómo fue eso? ";
                 ivo.GetComponent<DialogueName>().Dialogo[1] = "Ivo: Espero que no te hayas confundido de portal...";
-                ivo.GetComponent<DialogueName>().Dialogo[2] = "Ivo: Si ves otra madera en la pecera, ¡Busca a Jero!";
+                ivo.GetComponent<DialogueName>().Dialogo[2] = "Ivo: Si ves otra madera en la pecera, ¡Busca a Jero pasando por la puerta detrás mio!";
             }
         }
 
@@ -69,7 +70,7 @@ public class FPSTRUE : MonoBehaviour
                     i++;
                 }
                 jero.GetComponent<DialogueName>().Dialogo[0] = "Jero: Oh.. se te hizo fácil. ";
-                jero.GetComponent<DialogueName>().Dialogo[1] = "Jero: Intenta agarrar la llave y ve a hablar con Ranzo";
+                jero.GetComponent<DialogueName>().Dialogo[1] = "Jero: Intenta agarrar la llave dorada y ve a hablar con Ranzo, en donde comenzaste.";
             }
         }
 
