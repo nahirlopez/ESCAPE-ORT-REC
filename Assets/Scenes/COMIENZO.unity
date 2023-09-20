@@ -2738,7 +2738,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 354.6, y: -181}
+  m_AnchoredPosition: {x: 293.4, y: 175.5}
   m_SizeDelta: {x: 78.00339, y: 78.00339}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &75910479
@@ -21384,7 +21384,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cf54fe7522550a2428272213fa43d6c1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 153.02
+      value: 154.23
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cf54fe7522550a2428272213fa43d6c1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -21873,7 +21873,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cf54fe7522550a2428272213fa43d6c1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 153.349
+      value: 154.23
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cf54fe7522550a2428272213fa43d6c1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -65558,12 +65558,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialogo:
-  - 'Ivo: Hola soy Ivo, te diste cuenta que la entrada hacia la llave esta bloqueada.'
+  - 'Ivo: Hola soy Ivo, te diste cuenta que la puerta esta trabada.'
   - 'Ivo: Esto no va a ser tan facil como hacer un semaforo en arduino.'
   - "Ivo: Pero no te pongas loco, \xA1Estoy para ayudar!"
   - 'Ivo: Si completas mi minijuego una madera yo voy a sacar.'
-  - "Ivo: Toca el portal azul que est\xE1 atr\xE1s m\xEDo, \xA1Atravesame sin miedo,
-    soy un fantasma!"
+  - "Ivo: Toca el mini portal azul que est\xE1 atr\xE1s m\xEDo, \xA1Atravesame sin
+    miedo, soy un fantasma!"
   TextoDelDialogo: {fileID: 57440500}
   Master: {fileID: 397467041}
 --- !u!1 &1741722611
